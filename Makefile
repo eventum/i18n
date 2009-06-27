@@ -1,11 +1,12 @@
 # Makefile for Eventum po files.
 # (c) 2007 Elan Ruusamäe <glen@delfi.ee>
 
-SVN_URL := svn://eventum.mysql.org/eventum-gpl/trunk/eventum
-POOTLE_URL := https://www.unixlan.com.ar/eventum
+localedir   := /usr/share/locale
+SVN_URL     := svn://eventum.mysql.org/eventum-gpl/trunk/eventum
+POOTLE_URL  := https://www.unixlan.com.ar/eventum
 ALL_LINGUAS := de en es fi fr it nl pl ru sv pt_BR
-DOMAIN := eventum
-POFILES := $(patsubst %,%.po,$(ALL_LINGUAS))
+DOMAIN      := eventum
+POFILES     := $(patsubst %,%.po,$(ALL_LINGUAS))
 
 all:
 	@set -e; \
@@ -14,6 +15,15 @@ all:
 		echo -n "$$lang: "; \
 		[ -f $$lang.po ] || { echo Missing; continue; }; \
 		msgfmt --statistics --output=t.mo $$lang.po && mv t.mo $$lang/LC_MESSAGES/$(DOMAIN).mo; \
+	done
+
+install: all
+	@install -d $(DESTDIR)$(localedir)
+	for lang in $(ALL_LINGUAS); do \
+		[ -f $$lang/LC_MESSAGES/$(DOMAIN).mo ] || continue; \
+		install -d $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES; \
+		echo cp -a $$lang/LC_MESSAGES/$(DOMAIN).mo $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES; \
+		cp -a $$lang/LC_MESSAGES/$(DOMAIN).mo $(DESTDIR)$(localedir)/$$lang/LC_MESSAGES; \
 	done
 
 tools-check:
