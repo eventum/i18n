@@ -8562,3 +8562,7 @@ msgstr ""
 #: templates/update_form.tpl.html
 msgid "Move"
 msgstr "Pārvietot"
+
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Lūdzu, norādiet savu e-pasta adresi!"

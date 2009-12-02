@@ -8594,6 +8594,10 @@ msgstr "rok"
 msgid "Move"
 msgstr ""
 
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Błąd: Podaj proszę swój adres email."
+
 #~ msgid ""
 #~ "Warning: your issue is currently quarantined.\n"
 #~ "                Please see the <a href=\"faq.php\">FAQ</a> for "

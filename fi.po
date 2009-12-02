@@ -8772,6 +8772,10 @@ msgstr "Viesti: "
 msgid "Move"
 msgstr "Matkapuhelin"
 
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Virhe: Anna sähköpostiosoitteesi."
+
 #~ msgid " with the message"
 #~ msgstr " viestillä"
 

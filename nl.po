@@ -8827,6 +8827,10 @@ msgstr "Notitie: "
 msgid "Move"
 msgstr "Mobiel"
 
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Fout: Geef een geldig emailadres."
+
 #~ msgid "Port:"
 #~ msgstr "Poort:"
 

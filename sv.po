@@ -8651,6 +8651,10 @@ msgstr "Notering: "
 msgid "Move"
 msgstr "Mobil"
 
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Fel: var vänlig ange din e-postadress."
+
 #~ msgid "Port:"
 #~ msgstr "Port:"
 

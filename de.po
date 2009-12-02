@@ -8928,6 +8928,10 @@ msgstr "Notiz: "
 msgid "Move"
 msgstr "Handy"
 
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Fehler: Bitte geben Sie Ihre e-Mail Adresse an."
+
 #~ msgid "Port:"
 #~ msgstr "Port:"
 

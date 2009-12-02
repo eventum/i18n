@@ -8562,3 +8562,7 @@ msgstr "aasta"
 #: templates/update_form.tpl.html
 msgid "Move"
 msgstr "Liiguta"
+
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Viga: Palun sisesta kehtiv e-posti aadress."

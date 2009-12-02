@@ -9180,6 +9180,10 @@ msgstr "ano"
 msgid "Move"
 msgstr "Móvel"
 
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Erro: Por favor informe seu endereço de email."
+
 #~ msgid " with the message"
 #~ msgstr " com a mensagem"
 

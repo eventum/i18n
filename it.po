@@ -8846,6 +8846,10 @@ msgstr "Nota: "
 msgid "Move"
 msgstr "Mobile"
 
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Errore: inserisci l'indirizzo email."
+
 #~ msgid " with the message"
 #~ msgstr " con il messaggio"
 

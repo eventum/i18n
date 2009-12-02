@@ -9366,6 +9366,10 @@ msgstr "año"
 msgid "Move"
 msgstr "Móvil"
 
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Error: Por favor, especifique su dirección de email."
+
 #~ msgid "Port:"
 #~ msgstr "Puerto:"
 

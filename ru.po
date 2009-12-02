@@ -8855,6 +8855,10 @@ msgstr "Примечание: "
 msgid "Move"
 msgstr "Мобильный"
 
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Ошибка: Пожалуйста, укажите ваш адрес эл.почты."
+
 #~ msgid "Port:"
 #~ msgstr "Порт:"
 

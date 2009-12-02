@@ -8563,3 +8563,7 @@ msgstr "metai"
 #: templates/update_form.tpl.html
 msgid "Move"
 msgstr ""
+
+#: templates/forgot_password.tpl.html
+msgid "Error: Please provide your email address."
+msgstr "Klaida: Prašome nurodyti elektroninio pašto adresą."
