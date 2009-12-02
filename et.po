@@ -8560,6 +8560,5 @@ msgid "year"
 msgstr "aasta"
 
 #: templates/update_form.tpl.html
-#, fuzzy
 msgid "Move"
-msgstr "Mobiil"
+msgstr "Liiguta"
