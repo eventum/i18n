@@ -8590,6 +8590,10 @@ msgstr "tydzień"
 msgid "year"
 msgstr "rok"
 
+#: templates/update_form.tpl.html
+msgid "Move"
+msgstr ""
+
 #~ msgid ""
 #~ "Warning: your issue is currently quarantined.\n"
 #~ "                Please see the <a href=\"faq.php\">FAQ</a> for "

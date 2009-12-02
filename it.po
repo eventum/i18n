@@ -8841,6 +8841,11 @@ msgstr "anno"
 msgid "Note: "
 msgstr "Nota: "
 
+#: templates/update_form.tpl.html
+#, fuzzy
+msgid "Move"
+msgstr "Mobile"
+
 #~ msgid " with the message"
 #~ msgstr " con il messaggio"
 

@@ -8822,6 +8822,11 @@ msgstr " met het bericht"
 msgid "Note: "
 msgstr "Notitie: "
 
+#: templates/update_form.tpl.html
+#, fuzzy
+msgid "Move"
+msgstr "Mobiel"
+
 #~ msgid "Port:"
 #~ msgstr "Poort:"
 

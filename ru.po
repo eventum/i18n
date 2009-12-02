@@ -8850,6 +8850,11 @@ msgstr "год"
 msgid "Note: "
 msgstr "Примечание: "
 
+#: templates/update_form.tpl.html
+#, fuzzy
+msgid "Move"
+msgstr "Мобильный"
+
 #~ msgid "Port:"
 #~ msgstr "Порт:"
 

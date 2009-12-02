@@ -9175,6 +9175,11 @@ msgstr "semana"
 msgid "year"
 msgstr "ano"
 
+#: templates/update_form.tpl.html
+#, fuzzy
+msgid "Move"
+msgstr "Móvel"
+
 #~ msgid " with the message"
 #~ msgstr " com a mensagem"
 

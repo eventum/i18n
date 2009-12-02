@@ -8559,3 +8559,7 @@ msgstr "savaitė"
 #: templates/reports/customer_stats.tpl.html
 msgid "year"
 msgstr "metai"
+
+#: templates/update_form.tpl.html
+msgid "Move"
+msgstr ""

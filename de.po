@@ -8923,6 +8923,11 @@ msgstr " mit dieser Nachricht"
 msgid "Note: "
 msgstr "Notiz: "
 
+#: templates/update_form.tpl.html
+#, fuzzy
+msgid "Move"
+msgstr "Handy"
+
 #~ msgid "Port:"
 #~ msgstr "Port:"
 

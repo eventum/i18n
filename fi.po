@@ -8767,6 +8767,11 @@ msgstr "vuosi"
 msgid "Note: "
 msgstr "Viesti: "
 
+#: templates/update_form.tpl.html
+#, fuzzy
+msgid "Move"
+msgstr "Matkapuhelin"
+
 #~ msgid " with the message"
 #~ msgstr " viestillä"
 

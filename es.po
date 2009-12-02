@@ -9361,6 +9361,11 @@ msgstr "semana"
 msgid "year"
 msgstr "año"
 
+#: templates/update_form.tpl.html
+#, fuzzy
+msgid "Move"
+msgstr "Móvil"
+
 #~ msgid "Port:"
 #~ msgstr "Puerto:"
 

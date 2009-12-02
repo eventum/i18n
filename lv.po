@@ -8558,3 +8558,7 @@ msgstr ""
 #: templates/reports/customer_stats.tpl.html
 msgid "year"
 msgstr ""
+
+#: templates/update_form.tpl.html
+msgid "Move"
+msgstr ""

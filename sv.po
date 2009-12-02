@@ -8646,6 +8646,11 @@ msgstr ""
 msgid "Note: "
 msgstr "Notering: "
 
+#: templates/update_form.tpl.html
+#, fuzzy
+msgid "Move"
+msgstr "Mobil"
+
 #~ msgid "Port:"
 #~ msgstr "Port:"
 

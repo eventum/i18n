@@ -8558,3 +8558,8 @@ msgstr "nädal"
 #: templates/reports/customer_stats.tpl.html
 msgid "year"
 msgstr "aasta"
+
+#: templates/update_form.tpl.html
+#, fuzzy
+msgid "Move"
+msgstr "Mobiil"
