@@ -8598,6 +8598,11 @@ msgstr ""
 msgid "Error: Please provide your email address."
 msgstr "Błąd: Podaj proszę swój adres email."
 
+#: lib/eventum/class.template_helper.php:175
+#, fuzzy
+msgid "(archived)"
+msgstr "(nazwa zapytania)"
+
 #~ msgid ""
 #~ "Warning: your issue is currently quarantined.\n"
 #~ "                Please see the <a href=\"faq.php\">FAQ</a> for "

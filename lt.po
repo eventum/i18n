@@ -8567,3 +8567,7 @@ msgstr ""
 #: templates/forgot_password.tpl.html
 msgid "Error: Please provide your email address."
 msgstr "Klaida: Prašome nurodyti elektroninio pašto adresą."
+
+#: lib/eventum/class.template_helper.php:175
+msgid "(archived)"
+msgstr ""

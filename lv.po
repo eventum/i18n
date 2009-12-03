@@ -8568,3 +8568,7 @@ msgstr "Pārvietot"
 #: templates/forgot_password.tpl.html
 msgid "Error: Please provide your email address."
 msgstr "Lūdzu, norādiet savu e-pasta adresi!"
+
+#: lib/eventum/class.template_helper.php:175
+msgid "(archived)"
+msgstr ""

@@ -209,8 +209,8 @@ msgid ""
 "emails are properly sent when creating new users/projects."
 msgstr ""
 "<b>Nota:</b> A configuração SMTP (email sainte) é necessária para garantir "
-"que os emails sejam enviados de forma adequada ao criar novos "
-"usários/projetos."
+"que os emails sejam enviados de forma adequada ao criar novos usários/"
+"projetos."
 
 #: templates/notifications/new.tpl.text
 msgid "A new issue was just created and assigned to you."
@@ -472,8 +472,7 @@ msgstr "Motivo do Alerta"
 #: templates/checkins.tpl.html templates/close.tpl.html
 #: templates/emails.tpl.html templates/impact_analysis.tpl.html
 #: templates/list.tpl.html templates/manage/account_managers.tpl.html
-#: templates/manage/categories.tpl.html
-#: templates/manage/custom_fields.tpl.html
+#: templates/manage/categories.tpl.html templates/manage/custom_fields.tpl.html
 #: templates/manage/customer_notes.tpl.html
 #: templates/manage/customize_listing.tpl.html
 #: templates/manage/email_accounts.tpl.html
@@ -489,8 +488,7 @@ msgstr "Motivo do Alerta"
 #: templates/manage/round_robin.tpl.html templates/manage/statuses.tpl.html
 #: templates/manage/time_tracking.tpl.html templates/manage/users.tpl.html
 #: templates/removed_emails.tpl.html templates/reports/customer_stats.tpl.html
-#: templates/reports/recent_activity.tpl.html
-#: templates/support_emails.tpl.html
+#: templates/reports/recent_activity.tpl.html templates/support_emails.tpl.html
 msgid "All"
 msgstr "Todo(a)s"
 
@@ -662,8 +660,7 @@ msgid "An error occurred while trying to add the round robin entry."
 msgstr "Ocorreu um erro ao tentar adicionar a designação round robin."
 
 #: templates/associate.tpl.html
-msgid ""
-"An error occurred while trying to associate the selected email message"
+msgid "An error occurred while trying to associate the selected email message"
 msgstr "Ocorreu um erro ao tentar associar a mensagem de email selecionada"
 
 #: templates/convert_note.tpl.html
@@ -710,13 +707,11 @@ msgstr ""
 
 #: templates/manage/faq.tpl.html
 msgid "An error occurred while trying to update the FAQ entry information."
-msgstr ""
-"Ocorreu um erro ao tentar atualizar as informações da entrada de FAQ."
+msgstr "Ocorreu um erro ao tentar atualizar as informações da entrada de FAQ."
 
 #: templates/manage/email_accounts.tpl.html
 msgid "An error occurred while trying to update the account information."
-msgstr ""
-"Ocorreu um erro ao tentar atualizar as informações da conta de email."
+msgstr "Ocorreu um erro ao tentar atualizar as informações da conta de email."
 
 #: templates/manage/account_managers.tpl.html
 msgid ""
@@ -738,16 +733,13 @@ msgid "An error occurred while trying to update the condition information."
 msgstr "Ocorreu um erro ao tentar atualizar as informações da condição."
 
 #: templates/manage/custom_fields.tpl.html
-msgid ""
-"An error occurred while trying to update the custom field information."
+msgid "An error occurred while trying to update the custom field information."
 msgstr ""
 "Ocorreu um erro ao tentar atualizar as informações do campo personalizado."
 
 #: templates/manage/customize_listing.tpl.html
-msgid ""
-"An error occurred while trying to update the customization information."
-msgstr ""
-"Ocorreu um erro ao tentar atualizar as informações da personalização."
+msgid "An error occurred while trying to update the customization information."
+msgstr "Ocorreu um erro ao tentar atualizar as informações da personalização."
 
 #: templates/manage/email_responses.tpl.html
 msgid ""
@@ -979,8 +971,7 @@ msgid "Assignment List"
 msgstr "Lista de Designados"
 
 #: templates/manage/anonymous.tpl.html
-#: templates/manage/issue_auto_creation.tpl.html
-#: templates/update_form.tpl.html
+#: templates/manage/issue_auto_creation.tpl.html templates/update_form.tpl.html
 msgid "Assignment:"
 msgstr "Designação:"
 
@@ -1678,8 +1669,7 @@ msgstr "Campo personalizado atualizado (%1$s) por %2$s"
 #: templates/reports/custom_fields.tpl.html
 #: templates/reports/customer_stats.tpl.html
 #: templates/reports/recent_activity.tpl.html
-#: templates/reports/workload_time_period.tpl.html
-#: templates/view_form.tpl.html
+#: templates/reports/workload_time_period.tpl.html templates/view_form.tpl.html
 msgid "Customer"
 msgstr "Cliente"
 
@@ -1704,8 +1694,8 @@ msgstr "ID do Cliente"
 msgid ""
 "Customer Identity (e.g. \"Example Inc.\", \"johndoe@example.com\", 12345)"
 msgstr ""
-"Identificação do Cliente (ex.: \"Exemplo Ltda.\", "
-"\"zedasilva@exemplo.com.br\", 12345)"
+"Identificação do Cliente (ex.: \"Exemplo Ltda.\", \"zedasilva@exemplo.com.br"
+"\", 12345)"
 
 #: templates/manage/projects.tpl.html
 msgid "Customer Integration Backend"
@@ -1766,8 +1756,7 @@ msgid "Date Field:"
 msgstr "Campo de Data:"
 
 #: templates/reports/customer_stats.tpl.html
-#: templates/reports/recent_activity.tpl.html
-#: templates/reports/weekly.tpl.html
+#: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
 msgid "Date Range"
 msgstr "Intervalo de Data"
 
@@ -1829,8 +1818,7 @@ msgid "Default Priority:"
 msgstr "Prioridade Padrão:"
 
 #: templates/manage/account_managers.tpl.html
-#: templates/manage/categories.tpl.html
-#: templates/manage/custom_fields.tpl.html
+#: templates/manage/categories.tpl.html templates/manage/custom_fields.tpl.html
 #: templates/manage/customer_notes.tpl.html
 #: templates/manage/customize_listing.tpl.html
 #: templates/manage/email_accounts.tpl.html
@@ -1886,8 +1874,7 @@ msgid "Details"
 msgstr "Detalhes"
 
 #: templates/help/permission_levels.tpl.html
-#: templates/reports/recent_activity.tpl.html
-#: templates/reports/weekly.tpl.html
+#: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_time_period.tpl.html
 msgid "Developer"
 msgstr "Desenvolvedor"
@@ -1980,8 +1967,7 @@ msgid "ERROR: Almost no free disk space left (percentage left"
 msgstr "ERRO: Quase sem espaço livre no disco (porcentagem livre"
 
 #: lib/eventum/class.monitor.php:174
-msgid ""
-"ERROR: Could not connect to the mysql database. Detailed error message:"
+msgid "ERROR: Could not connect to the mysql database. Detailed error message:"
 msgstr ""
 "ERRO: Não foi possível conectar à base de dados MySQL. Mensagem de erro "
 "detalhada:"
@@ -2254,8 +2240,7 @@ msgid "Email routed from %1$s"
 msgstr "Email roteado de %1$s"
 
 #: templates/convert_note.tpl.html
-msgid ""
-"Email will be re-sent from original sender, including any attachments."
+msgid "Email will be re-sent from original sender, including any attachments."
 msgstr ""
 "O email será reenviado no nome do remetente original, e incluirá eventuais "
 "anexos."
@@ -2539,8 +2524,7 @@ msgstr "Autorizados a Responder para este Chamado"
 msgid "Existing Canned Email Responses:"
 msgstr "Respostas Prontas de Email Existentes:"
 
-#: templates/manage/categories.tpl.html
-#: templates/manage/time_tracking.tpl.html
+#: templates/manage/categories.tpl.html templates/manage/time_tracking.tpl.html
 msgid "Existing Categories:"
 msgstr "Categorias Existentes:"
 
@@ -2952,8 +2936,7 @@ msgstr "Esqueci Minha Senha"
 
 #: templates/manage/reminders.tpl.html
 #: templates/notifications/assigned.tpl.text
-#: templates/notifications/closed.tpl.text
-#: templates/notifications/new.tpl.text
+#: templates/notifications/closed.tpl.text templates/notifications/new.tpl.text
 #: templates/notifications/new_issue.tpl.text
 #: templates/notifications/notes.tpl.text
 msgid "ID"
@@ -2996,8 +2979,8 @@ msgid ""
 "If enabled, Eventum will look in the subject line of incoming notes/emails "
 "to determine which issue they should be associated with."
 msgstr ""
-"Se esta funcionalidade estiver ativada, o Eventum lerá o assunto dos "
-"emails/notas entrantes para determinar a qual chamado devem ser associados."
+"Se esta funcionalidade estiver ativada, o Eventum lerá o assunto dos emails/"
+"notas entrantes para determinar a qual chamado devem ser associados."
 
 #: templates/tips/canned_responses.tpl.html
 msgid ""
@@ -3099,8 +3082,8 @@ msgid ""
 "from the appropriate POP3/IMAP server."
 msgstr ""
 "Para fazer isso, entretanto, o administrador do sistema deve configurar "
-"contas de correio para que o Eventum baixe as mensagens do servidor "
-"POP3/IMAP apropriado."
+"contas de correio para que o Eventum baixe as mensagens do servidor POP3/"
+"IMAP apropriado."
 
 #: templates/manage/news.tpl.html templates/manage/users.tpl.html
 msgid "Inactive"
@@ -3219,8 +3202,7 @@ msgstr "Detalhes do Chamado"
 
 #: lib/eventum/class.display_column.php:177 templates/adv_search.tpl.html
 #: templates/close.tpl.html templates/reports/custom_fields.tpl.html
-#: templates/reports/issue_user.tpl.html
-#: templates/reports/open_issues.tpl.html
+#: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html
 msgid "Issue ID"
@@ -4189,18 +4171,15 @@ msgstr "Chamados Abertos Por Designado"
 msgid "Open Issues By Reporter"
 msgstr "Chamados Abertos Por Reclamante"
 
-#: templates/close.tpl.html templates/duplicate.tpl.html
-#: templates/new.tpl.html
+#: templates/close.tpl.html templates/duplicate.tpl.html templates/new.tpl.html
 msgid "Open the Emails Listing Page"
 msgstr "Abrir a Página de Listagem de Emails"
 
-#: templates/close.tpl.html templates/duplicate.tpl.html
-#: templates/new.tpl.html
+#: templates/close.tpl.html templates/duplicate.tpl.html templates/new.tpl.html
 msgid "Open the Issue Details Page"
 msgstr "Abrir a Página de Detalhes do Chamado"
 
-#: templates/close.tpl.html templates/duplicate.tpl.html
-#: templates/new.tpl.html
+#: templates/close.tpl.html templates/duplicate.tpl.html templates/new.tpl.html
 msgid "Open the Issue Listing Page"
 msgstr "Abrir a Página de Listagem de Chamados"
 
@@ -4410,8 +4389,7 @@ msgstr ""
 
 #: templates/manage/groups.tpl.html
 msgid "Please assign the appropriate projects for this group."
-msgstr ""
-"Por favor selecione os projetos que devem ser associados a este grupo."
+msgstr "Por favor selecione os projetos que devem ser associados a este grupo."
 
 #: templates/manage/news.tpl.html
 msgid "Please assign the appropriate projects for this news entry."
@@ -4434,8 +4412,7 @@ msgstr ""
 
 #: templates/manage/groups.tpl.html
 msgid "Please assign the appropriate users for this group."
-msgstr ""
-"Por favor assinale os usuários que devem ser associados a este grupo."
+msgstr "Por favor assinale os usuários que devem ser associados a este grupo."
 
 #: templates/manage/round_robin.tpl.html
 msgid "Please assign the appropriate users for this round robin entry."
@@ -4449,8 +4426,7 @@ msgstr "Por favor informe o gestor deste grupo."
 
 #: templates/manage/projects.tpl.html
 msgid "Please assign the statuses for this project."
-msgstr ""
-"Por favor assinale os status que devem ser associados a este projeto."
+msgstr "Por favor assinale os status que devem ser associados a este projeto."
 
 #: templates/manage/projects.tpl.html
 msgid "Please assign the users for this project."
@@ -4543,8 +4519,7 @@ msgid "Please choose the customer for this new note."
 msgstr "Por favor escolha o cliente para esta nova nota."
 
 #: templates/manage/reminders.tpl.html
-msgid ""
-"Please choose the customers that will be associated with this reminder."
+msgid "Please choose the customers that will be associated with this reminder."
 msgstr "Por favor escolha os clientes que serão associados ao lembrete."
 
 #: templates/manage/anonymous.tpl.html
@@ -4638,8 +4613,7 @@ msgstr ""
 "chamados"
 
 #: templates/manage/general.tpl.html
-msgid ""
-"Please choose whether the daily tips feature should be enabled or not."
+msgid "Please choose whether the daily tips feature should be enabled or not."
 msgstr ""
 "Por favor escolha se a funcionalidade de dicas diárias deve ser ativada ou "
 "não."
@@ -4752,8 +4726,7 @@ msgstr ""
 
 #: templates/manage/faq.tpl.html
 msgid "Please enter a number for the rank of this FAQ entry."
-msgstr ""
-"Por favor informe um valor numérico para o rank desta entrada de FAQ."
+msgstr "Por favor informe um valor numérico para o rank desta entrada de FAQ."
 
 #: templates/manage/users.tpl.html
 msgid "Please enter a password of at least 6 characters."
@@ -4861,8 +4834,7 @@ msgstr ""
 
 #: templates/setup.tpl.html
 msgid "Please enter the database name for this installation of Eventum."
-msgstr ""
-"Por favor informe o nome da base de dados desta instalação do Eventum."
+msgstr "Por favor informe o nome da base de dados desta instalação do Eventum."
 
 #: templates/setup.tpl.html
 msgid "Please enter the database username for this installation of Eventum."
@@ -4899,8 +4871,7 @@ msgstr ""
 "saintes devem ser enviadas."
 
 #: templates/manage/general.tpl.html
-msgid ""
-"Please enter the email address prefix for the email routing interface."
+msgid "Please enter the email address prefix for the email routing interface."
 msgstr ""
 "Por favor informe o prefixo dos endereços de email usados na interface de "
 "roteamento de email."
@@ -4921,8 +4892,7 @@ msgstr "Por favor informe o nome completo do usuário."
 #: templates/setup.tpl.html
 msgid ""
 "Please enter the hostname for the server of this installation of Eventum."
-msgstr ""
-"Por favor informe o hostname do servidor desta instalação do Eventum."
+msgstr "Por favor informe o hostname do servidor desta instalação do Eventum."
 
 #: templates/manage/email_accounts.tpl.html
 msgid "Please enter the hostname for this email account."
@@ -4933,8 +4903,7 @@ msgid "Please enter the impact analysis for this new requirement."
 msgstr "Por favor informe a análise de impacto do novo requisito."
 
 #: templates/manage/reminders.tpl.html
-msgid ""
-"Please enter the issue IDs that will be associated with this reminder."
+msgid "Please enter the issue IDs that will be associated with this reminder."
 msgstr ""
 "Por favor informe os números dos chamados que serão associados ao lembrete."
 
@@ -4985,8 +4954,7 @@ msgstr "Por favor informe a senha desta conta de email."
 
 #: templates/manage/email_accounts.tpl.html
 msgid "Please enter the port number for this email account."
-msgstr ""
-"Por favor informe o número da porta do servidor desta conta de email."
+msgstr "Por favor informe o número da porta do servidor desta conta de email."
 
 #: templates/manage/reminders.tpl.html
 msgid "Please enter the rank for this reminder."
@@ -5108,8 +5076,7 @@ msgstr "Por favor informe o título do novo status."
 
 #: templates/manage/time_tracking.tpl.html
 msgid "Please enter the title for this new time tracking category."
-msgstr ""
-"Por favor informe o título da nova categoria de apontamento de tempo."
+msgstr "Por favor informe o título da nova categoria de apontamento de tempo."
 
 #: templates/manage/news.tpl.html
 msgid "Please enter the title for this news entry."
@@ -5225,8 +5192,7 @@ msgid "Please enter your password."
 msgstr "Por favor informe sua senha."
 
 #: templates/manage/general.tpl.html templates/setup.tpl.html
-msgid ""
-"Please indicate whether the SMTP server requires authentication or not."
+msgid "Please indicate whether the SMTP server requires authentication or not."
 msgstr "Por favor indique se o servidor SMTP requer autenticação ou não."
 
 #: templates/associate.tpl.html
@@ -5505,8 +5471,7 @@ msgstr "Gerente de Contas Técnico Primário"
 #: lib/eventum/class.notification.php:627 lib/eventum/class.project.php:1101
 #: templates/adv_search.tpl.html templates/bulk_update.tpl.html
 #: templates/new.tpl.html templates/notifications/assigned.tpl.text
-#: templates/notifications/closed.tpl.text
-#: templates/notifications/new.tpl.text
+#: templates/notifications/closed.tpl.text templates/notifications/new.tpl.text
 #: templates/notifications/new_auto_created_issue.tpl.text
 #: templates/notifications/new_issue.tpl.text
 #: templates/notifications/notes.tpl.text templates/quick_filter_form.tpl.html
@@ -5539,8 +5504,7 @@ msgstr "Processando notificação para Líder de Grupo"
 #: templates/manage/customize_listing.tpl.html
 #: templates/manage/reminders.tpl.html templates/manage/round_robin.tpl.html
 #: templates/navigation.tpl.html templates/notifications/assigned.tpl.text
-#: templates/notifications/closed.tpl.text
-#: templates/notifications/new.tpl.text
+#: templates/notifications/closed.tpl.text templates/notifications/new.tpl.text
 #: templates/notifications/new_issue.tpl.text
 #: templates/notifications/notes.tpl.text templates/post.tpl.html
 #: templates/select_project.tpl.html
@@ -5844,13 +5808,13 @@ msgstr "Emails Excluídos"
 
 #: templates/help/scm_integration_installation.tpl.html
 msgid ""
-"Replace %1 by the appropriate absolute path in your CVS server, such as "
-"/home/username/repository for instance. Also make sure to put the "
-"appropriate path to your PHP binary."
+"Replace %1 by the appropriate absolute path in your CVS server, such as /"
+"home/username/repository for instance. Also make sure to put the appropriate "
+"path to your PHP binary."
 msgstr ""
-"Substitua %1 pelo caminho absoluto no seu servidor CVS, como "
-"/home/username/repository, por exemplo. Também ponha o caminho apropriado "
-"para o binário do PHP."
+"Substitua %1 pelo caminho absoluto no seu servidor CVS, como /home/username/"
+"repository, por exemplo. Também ponha o caminho apropriado para o binário do "
+"PHP."
 
 #: templates/self_assign.tpl.html
 msgid "Replace current assignee with Myself."
@@ -5895,8 +5859,7 @@ msgid "Report a New Issue"
 msgstr "Abrir Novo Chamado"
 
 #: templates/notifications/assigned.tpl.text
-#: templates/notifications/closed.tpl.text
-#: templates/notifications/new.tpl.text
+#: templates/notifications/closed.tpl.text templates/notifications/new.tpl.text
 #: templates/notifications/new_issue.tpl.text
 #: templates/notifications/notes.tpl.text
 msgid "Reported By"
@@ -6418,8 +6381,7 @@ msgstr "Usuário Padrão"
 
 #: templates/manage/round_robin.tpl.html
 #: templates/reports/custom_fields.tpl.html
-#: templates/reports/recent_activity.tpl.html
-#: templates/reports/weekly.tpl.html
+#: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
 msgid "Start"
 msgstr "Início"
@@ -6440,16 +6402,14 @@ msgstr "Estatísticas"
 #: lib/eventum/class.notification.php:630
 #: lib/eventum/class.notification.php:631 templates/adv_search.tpl.html
 #: templates/attachments.tpl.html templates/bulk_update.tpl.html
-#: templates/close.tpl.html
-#: templates/customer/example/customer_lookup.tpl.html
+#: templates/close.tpl.html templates/customer/example/customer_lookup.tpl.html
 #: templates/email_drafts.tpl.html templates/emails.tpl.html
 #: templates/file_upload.tpl.html templates/mail_queue.tpl.html
 #: templates/manage/customize_listing.tpl.html templates/manage/news.tpl.html
 #: templates/manage/projects.tpl.html templates/manage/releases.tpl.html
 #: templates/manage/users.tpl.html templates/notifications/closed.tpl.text
 #: templates/notifications/notes.tpl.text templates/quick_filter_form.tpl.html
-#: templates/reports/issue_user.tpl.html
-#: templates/reports/open_issues.tpl.html
+#: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/view_form.tpl.html
 msgid "Status"
@@ -6475,9 +6435,9 @@ msgstr "Lista de Status"
 
 #: templates/attached_emails.tpl.html templates/email_drafts.tpl.html
 #: templates/emails.tpl.html templates/mail_queue.tpl.html
-#: templates/removed_emails.tpl.html
-#: templates/reports/recent_activity.tpl.html templates/send.tpl.html
-#: templates/support_emails.tpl.html templates/view_email.tpl.html
+#: templates/removed_emails.tpl.html templates/reports/recent_activity.tpl.html
+#: templates/send.tpl.html templates/support_emails.tpl.html
+#: templates/view_email.tpl.html
 msgid "Subject"
 msgstr "Assunto"
 
@@ -6516,8 +6476,7 @@ msgstr "Sugestões:"
 #: templates/adv_search.tpl.html templates/history.tpl.html
 #: templates/list.tpl.html templates/new.tpl.html
 #: templates/notifications/assigned.tpl.text
-#: templates/notifications/closed.tpl.text
-#: templates/notifications/new.tpl.text
+#: templates/notifications/closed.tpl.text templates/notifications/new.tpl.text
 #: templates/notifications/new_auto_created_issue.tpl.text
 #: templates/notifications/new_issue.tpl.text
 #: templates/notifications/notes.tpl.text
@@ -6525,8 +6484,7 @@ msgstr "Sugestões:"
 #: templates/reminders/alert_no_recipients.tpl.text
 #: templates/reminders/email_alert.tpl.text
 #: templates/reports/custom_fields.tpl.html
-#: templates/reports/issue_user.tpl.html
-#: templates/reports/open_issues.tpl.html
+#: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/time_tracking.tpl.html
 #: templates/view_form.tpl.html
@@ -6685,8 +6643,7 @@ msgstr "Obrigado, o anexo foi excluído com sucesso."
 
 #: templates/authorized_replier.tpl.html
 msgid "Thank you, the authorized replier was inserted successfully."
-msgstr ""
-"Obrigado, a lista de autorizados a responder foi inserida com sucesso."
+msgstr "Obrigado, a lista de autorizados a responder foi inserida com sucesso."
 
 #: templates/manage/categories.tpl.html
 #: templates/manage/phone_categories.tpl.html
@@ -7011,8 +6968,7 @@ msgstr ""
 
 #: templates/popup.tpl.html
 msgid "Thank you, the time tracking entry was removed successfully."
-msgstr ""
-"Obrigado, a entrada de apontamento de tempo foi excluída com sucesso."
+msgstr "Obrigado, a entrada de apontamento de tempo foi excluída com sucesso."
 
 #: templates/file_upload.tpl.html
 msgid "Thank you, the uploaded file was associated with the issue below."
@@ -7177,8 +7133,7 @@ msgstr ""
 #: templates/login_form.tpl.html
 msgid ""
 "The email address / password combination could not be found in the system."
-msgstr ""
-"A combinação endereço de email / senha não foi encontrada no sistema."
+msgstr "A combinação endereço de email / senha não foi encontrada no sistema."
 
 #: templates/help/scm_integration.tpl.html
 msgid "The filename that was committed"
@@ -7322,8 +7277,7 @@ msgstr "O valor informado já existe na lista de opções."
 #: templates/preferences.tpl.html
 msgid ""
 "The two passwords do not match. Please review your information and try again."
-msgstr ""
-"As duas senhas são diferentes. Por favor verifique e tente novamente."
+msgstr "As duas senhas são diferentes. Por favor verifique e tente novamente."
 
 #: templates/file_upload.tpl.html
 msgid ""
@@ -7395,14 +7349,11 @@ msgid "This action will permanently delete the specified note."
 msgstr "Esta ação excluirá permanentemente a nota selecionada."
 
 #: templates/phone_support.tpl.html
-msgid ""
-"This action will permanently delete the specified phone support entry."
-msgstr ""
-"Esta ação excluirá permanentemente esta entrada de suporte telefônico."
+msgid "This action will permanently delete the specified phone support entry."
+msgstr "Esta ação excluirá permanentemente esta entrada de suporte telefônico."
 
 #: templates/time_tracking.tpl.html
-msgid ""
-"This action will permanently delete the specified time tracking entry."
+msgid "This action will permanently delete the specified time tracking entry."
 msgstr ""
 "Esta ação excluirá permanentemente esta entrada de apontamento de tempo."
 
@@ -7776,8 +7727,7 @@ msgstr "Período de Tempo"
 
 #: lib/eventum/class.display_column.php:192 templates/add_phone_entry.tpl.html
 #: templates/add_time_tracking.tpl.html templates/close.tpl.html
-#: templates/reports/issue_user.tpl.html
-#: templates/reports/open_issues.tpl.html
+#: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/send.tpl.html
 #: templates/time_tracking.tpl.html
@@ -7921,8 +7871,7 @@ msgstr "Título do Sistema:"
 msgid "Tot"
 msgstr "Tot"
 
-#: templates/redeem_incident.tpl.html
-#: templates/reports/customer_stats.tpl.html
+#: templates/redeem_incident.tpl.html templates/reports/customer_stats.tpl.html
 msgid "Total"
 msgstr "Total"
 
@@ -8332,8 +8281,7 @@ msgid "WARNING: This action will remove the selected groups permanently."
 msgstr "AVISO: Esta ação excluirá permanentemente os grupos selecionados."
 
 #: templates/manage/link_filters.tpl.html
-msgid ""
-"WARNING: This action will remove the selected link filters permanently."
+msgid "WARNING: This action will remove the selected link filters permanently."
 msgstr ""
 "AVISO: Esta ação excluirá permanentemente os filtros de link selecionados."
 
@@ -8421,8 +8369,7 @@ msgstr ""
 #: templates/send.tpl.html
 msgid ""
 "Warning: This draft has already been edited. You cannot send or edit it."
-msgstr ""
-"Aviso: o rascunho já foi editado. Você não pode enviá-lo ou editá-lo."
+msgstr "Aviso: o rascunho já foi editado. Você não pode enviá-lo ou editá-lo."
 
 #: templates/send.tpl.html
 msgid "Warning: This draft has already been sent. You cannot resend it."
@@ -8542,10 +8489,10 @@ msgstr "Você não tem autorização para usar o projeto selecionado."
 
 #: templates/tips/custom_queries.tpl.html
 msgid ""
-"You can create as many custom queries as you want through the <a "
-"class=\"link\" href=\"%1\">Advanced Search</a> interface. There is also the "
-"ability to save and modify custom queries and load them quickly from the "
-"Issue Listing screen."
+"You can create as many custom queries as you want through the <a class=\"link"
+"\" href=\"%1\">Advanced Search</a> interface. There is also the ability to "
+"save and modify custom queries and load them quickly from the Issue Listing "
+"screen."
 msgstr ""
 "Você criar tantas consultas personalizadas quanto desejar através da "
 "interface de <a class=\"link\" href=\"%1\">Busca Avançada</a>. Você também "
@@ -9008,18 +8955,15 @@ msgstr "mover campo para cima"
 msgid "must be a valid email address"
 msgstr "deve ser um endereço de email válido"
 
-#: htdocs/adv_search.php:58 htdocs/list.php:85
-#: lib/eventum/class.filter.php:669
+#: htdocs/adv_search.php:58 htdocs/list.php:85 lib/eventum/class.filter.php:669
 msgid "myself and my group"
 msgstr "eu e meu grupo"
 
-#: htdocs/adv_search.php:52 htdocs/list.php:80
-#: lib/eventum/class.filter.php:667
+#: htdocs/adv_search.php:52 htdocs/list.php:80 lib/eventum/class.filter.php:667
 msgid "myself and un-assigned"
 msgstr "eu e não-designado"
 
-#: htdocs/adv_search.php:59 htdocs/list.php:86
-#: lib/eventum/class.filter.php:671
+#: htdocs/adv_search.php:59 htdocs/list.php:86 lib/eventum/class.filter.php:671
 msgid "myself, un-assigned and my group"
 msgstr "eu, não-designado e meu grupo"
 
@@ -9103,8 +9047,8 @@ msgstr "selecionar este contato"
 msgid "send email to"
 msgstr "enviar email para"
 
-#: templates/reports/recent_activity.tpl.html
-#: templates/support_emails.tpl.html templates/view_email.tpl.html
+#: templates/reports/recent_activity.tpl.html templates/support_emails.tpl.html
+#: templates/view_email.tpl.html
 msgid "sent to notification list"
 msgstr "enviado para a lista de notificação"
 
@@ -9161,8 +9105,7 @@ msgstr "será incluído ao final de todas as mensagens de lembretes"
 msgid "to access this page."
 msgstr "para acessar esta página."
 
-#: htdocs/adv_search.php:51 htdocs/list.php:79
-#: lib/eventum/class.filter.php:665
+#: htdocs/adv_search.php:51 htdocs/list.php:79 lib/eventum/class.filter.php:665
 msgid "un-assigned"
 msgstr "não-designado"
 
@@ -9175,8 +9118,7 @@ msgid "update entry"
 msgstr "atualizar entrada"
 
 #: templates/manage/account_managers.tpl.html
-#: templates/manage/categories.tpl.html
-#: templates/manage/custom_fields.tpl.html
+#: templates/manage/categories.tpl.html templates/manage/custom_fields.tpl.html
 #: templates/manage/customize_listing.tpl.html
 #: templates/manage/email_accounts.tpl.html
 #: templates/manage/email_responses.tpl.html templates/manage/faq.tpl.html
@@ -9199,8 +9141,7 @@ msgid "view email details"
 msgstr "visualizar detalhes do email"
 
 #: templates/emails.tpl.html templates/list.tpl.html
-#: templates/reports/issue_user.tpl.html
-#: templates/reports/open_issues.tpl.html
+#: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/view_form.tpl.html
 msgid "view issue details"
 msgstr "visualizar detalhes do chamado"
@@ -9237,6 +9178,11 @@ msgstr "semana"
 #: templates/reports/customer_stats.tpl.html
 msgid "year"
 msgstr "ano"
+
+#: lib/eventum/class.template_helper.php:175
+#, fuzzy
+msgid "(archived)"
+msgstr "(arquivado)"
 
 #~ msgid " with the message"
 #~ msgstr " com a mensagem"
@@ -9334,8 +9280,8 @@ msgstr "ano"
 
 #~ msgid ""
 #~ "Warning: your issue is currently quarantined.\n"
-#~ "                Please see the <a href=\"faq.php\">FAQ</a> for information "
-#~ "regarding quarantined issues."
+#~ "                Please see the <a href=\"faq.php\">FAQ</a> for "
+#~ "information regarding quarantined issues."
 #~ msgstr ""
 #~ "Aviso: seu chamado está em quarentena.\n"
 #~ "                Por favor leia a <a href=\"faq.php\">FAQ</a> para obter "
@@ -9350,8 +9296,8 @@ msgstr "ano"
 #~ msgid ""
 #~ "Refers to the number of issues in eventum for the given support level or "
 #~ "customer.\n"
-#~ "    Average and median counts do not include customers who have never opened "
-#~ "an issue."
+#~ "    Average and median counts do not include customers who have never "
+#~ "opened an issue."
 #~ msgstr ""
 #~ "Refere-se ao número de chamados no Eventum para o nível de suporte ou "
 #~ "cliente informados.\n"
@@ -9360,19 +9306,19 @@ msgstr "ano"
 
 #~ msgid ""
 #~ "Based on all issues recorded in Eventum since start to present.\n"
-#~ "        Actions are any event that shows up in the history of an issue, such "
-#~ "as a user or a developer updating an issue, uploading a file, sending an "
-#~ "email, etc."
+#~ "        Actions are any event that shows up in the history of an issue, "
+#~ "such as a user or a developer updating an issue, uploading a file, "
+#~ "sending an email, etc."
 #~ msgstr ""
 #~ "Baseado em todos os chamados cadastrados no Eventum desde o início até o "
 #~ "presente.\n"
-#~ "        Ações são quaisquer eventos que constem no histórico de um chamado, "
-#~ "tais como quando um usuário ou desenvolvedor atualiza um chamado, envia um "
-#~ "arquivo, envia um email, etc."
+#~ "        Ações são quaisquer eventos que constem no histórico de um "
+#~ "chamado, tais como quando um usuário ou desenvolvedor atualiza um "
+#~ "chamado, envia um arquivo, envia um email, etc."
 
 #~ msgid ""
-#~ "Sorry, but the email could not be queued. This might be related to problems "
-#~ "with your SMTP account settings.\n"
+#~ "Sorry, but the email could not be queued. This might be related to "
+#~ "problems with your SMTP account settings.\n"
 #~ "  Please contact the administrator of this application for further "
 #~ "assistance."
 #~ msgstr ""
@@ -9393,26 +9339,27 @@ msgstr "ano"
 #~ "maiores informações."
 
 #~ msgid ""
-#~ "You can create canned email responses and use them when sending emails from "
-#~ "the\n"
+#~ "You can create canned email responses and use them when sending emails "
+#~ "from the\n"
 #~ "system. That is an useful feature when dealing with lots of issues that "
 #~ "relate\n"
 #~ "to the same problem.\n"
 #~ "<br /><br />\n"
-#~ "If no canned email responses are available through the Email window, please\n"
-#~ "contact an user with the appropriate permissions (administrator or manager) "
-#~ "to\n"
+#~ "If no canned email responses are available through the Email window, "
+#~ "please\n"
+#~ "contact an user with the appropriate permissions (administrator or "
+#~ "manager) to\n"
 #~ "add some for you."
 #~ msgstr ""
-#~ "Você pode criar respostas prontas de email e usá-las quando enviar emails do "
-#~ "sistema.\n"
-#~ "Esta é uma funcionalidade útil quando se atende um grande número de chamados "
-#~ "relacionados ao mesmo problema.\n"
+#~ "Você pode criar respostas prontas de email e usá-las quando enviar emails "
+#~ "do sistema.\n"
+#~ "Esta é uma funcionalidade útil quando se atende um grande número de "
+#~ "chamados relacionados ao mesmo problema.\n"
 #~ "<br /><br />\n"
-#~ "Se nenhuma resposta pronta estiver disponível na janela de Email, por favor "
-#~ "entre em\n"
-#~ "contato com algum usuário que tenha as permissões apropriadas (administrador "
-#~ "do sistema\n"
+#~ "Se nenhuma resposta pronta estiver disponível na janela de Email, por "
+#~ "favor entre em\n"
+#~ "contato com algum usuário que tenha as permissões apropriadas "
+#~ "(administrador do sistema\n"
 #~ "ou gestor de projeto) para criar algumas para você."
 
 #~ msgid ""

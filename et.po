@@ -8566,3 +8566,7 @@ msgstr "Liiguta"
 #: templates/forgot_password.tpl.html
 msgid "Error: Please provide your email address."
 msgstr "Viga: Palun sisesta kehtiv e-posti aadress."
+
+#: lib/eventum/class.template_helper.php:175
+msgid "(archived)"
+msgstr "(arhiveeritud)"
