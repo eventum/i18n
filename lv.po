@@ -844,7 +844,7 @@ msgstr ""
 #: lib/eventum/class.display_column.php:189 lib/eventum/class.filter.php:723
 #: templates/adv_search.tpl.html templates/quick_filter_form.tpl.html
 msgid "Assigned"
-msgstr ""
+msgstr "Uzdots"
 
 #: templates/main.tpl.html
 msgid "Assigned Issues"
@@ -1179,7 +1179,7 @@ msgstr "Atcelt"
 
 #: templates/update_form.tpl.html
 msgid "Cancel Update"
-msgstr ""
+msgstr "Atcelt"
 
 #: templates/send.tpl.html
 msgid "Canned Responses"
@@ -1779,7 +1779,7 @@ msgstr ""
 #: templates/notifications/notes.tpl.text templates/post.tpl.html
 #: templates/reports/recent_activity.tpl.html
 msgid "Description"
-msgstr ""
+msgstr "Apraksts"
 
 #: lib/eventum/class.help.php:81 templates/help/report_description.tpl.html
 msgid "Description Field"
@@ -1791,7 +1791,7 @@ msgstr ""
 
 #: templates/manage/groups.tpl.html templates/update_form.tpl.html
 msgid "Description:"
-msgstr ""
+msgstr "Apraksts:"
 
 #: templates/manage/reminder_actions.tpl.html
 #: templates/manage/reminders.tpl.html templates/setup.tpl.html
@@ -2949,7 +2949,7 @@ msgstr ""
 
 #: templates/new.tpl.html templates/view_form.tpl.html
 msgid "Initial Description"
-msgstr ""
+msgstr "Sākotnējais apraksts"
 
 #: templates/impact_analysis.tpl.html
 msgid "Initial Impact Analysis"
@@ -3189,7 +3189,7 @@ msgstr ""
 
 #: templates/adv_search.tpl.html
 msgid "Last Updated"
-msgstr ""
+msgstr "Pēdējoreiz atjaunināts"
 
 #: templates/email_drafts.tpl.html templates/faq.tpl.html
 #: templates/view_form.tpl.html
@@ -3246,7 +3246,7 @@ msgstr ""
 
 #: templates/navigation.tpl.html
 msgid "List Issues"
-msgstr ""
+msgstr "Uzdevumu saraksts"
 
 #: templates/emails.tpl.html
 msgid "List Removed Emails"
@@ -3483,7 +3483,7 @@ msgstr ""
 
 #: templates/navigation.tpl.html
 msgid "My Assignments"
-msgstr ""
+msgstr "Mani uzdevumi"
 
 #: templates/setup.tpl.html
 msgid "MySQL Database"
@@ -3574,7 +3574,7 @@ msgstr ""
 
 #: templates/view_form.tpl.html
 msgid "Next Issue"
-msgstr ""
+msgstr "Nākamais uzdevums"
 
 #: templates/view_email.tpl.html
 msgid "Next Message"
@@ -5187,11 +5187,11 @@ msgstr "Prioritāte:"
 #: lib/eventum/class.project.php:1107 templates/file_upload.tpl.html
 #: templates/new.tpl.html
 msgid "Private"
-msgstr ""
+msgstr "Privāts"
 
 #: templates/update_form.tpl.html
 msgid "Private:"
-msgstr ""
+msgstr "Privāts:"
 
 #: lib/eventum/class.reminder_action.php:589
 msgid "Processing Group Leader notification"
@@ -5514,7 +5514,7 @@ msgstr ""
 #: templates/view_email.tpl.html templates/view_form.tpl.html
 #: templates/view_note.tpl.html
 msgid "Reply"
-msgstr ""
+msgstr "Atbildēt"
 
 #: templates/reports/weekly_data.tpl.html
 msgid "Report"
@@ -5551,11 +5551,11 @@ msgstr ""
 #: templates/adv_search.tpl.html templates/help/permission_levels.tpl.html
 #: templates/view_form.tpl.html
 msgid "Reporter"
-msgstr ""
+msgstr "Ziņotājs"
 
 #: templates/manage/anonymous.tpl.html templates/update_form.tpl.html
 msgid "Reporter:"
-msgstr ""
+msgstr "Ziņotājs:"
 
 #: lib/eventum/class.help.php:57
 msgid "Reporting Issues"
@@ -5567,7 +5567,7 @@ msgstr ""
 
 #: templates/navigation.tpl.html
 msgid "Reports"
-msgstr ""
+msgstr "Pārskati"
 
 #: templates/forgot_password.tpl.html
 msgid "Request a Password"
@@ -5765,7 +5765,7 @@ msgstr ""
 #: templates/email_filter_form.tpl.html templates/navigation.tpl.html
 #: templates/quick_filter_form.tpl.html templates/searchbar.tpl.html
 msgid "Search"
-msgstr ""
+msgstr "Meklēt"
 
 #: templates/opensearch.tpl.xml
 msgid "Search Eventum Issues"
@@ -5773,7 +5773,7 @@ msgstr ""
 
 #: templates/list.tpl.html
 msgid "Search Results"
-msgstr ""
+msgstr "Meklēšanas rezultāts"
 
 #: templates/adv_search.tpl.html
 msgid "Search Title"
@@ -5806,7 +5806,7 @@ msgstr ""
 
 #: templates/send.tpl.html templates/support_emails.tpl.html
 msgid "Send Email"
-msgstr ""
+msgstr "Sūtīt e-pastu"
 
 #: templates/forgot_password.tpl.html
 msgid "Send New Password"
@@ -6125,7 +6125,7 @@ msgstr ""
 
 #: templates/update_form.tpl.html
 msgid "Submitted Date:"
-msgstr ""
+msgstr "Izveidots"
 
 #: templates/spell_check.tpl.html
 msgid "Suggestions:"
@@ -7106,6 +7106,8 @@ msgid ""
 "This issue is marked private. Only Managers, the reporter and users assigned "
 "to the issue can view it."
 msgstr ""
+"Šis uzdevums ir privāts: to var apskatīt tikai ziņotājs, uzdevuma pildītāji "
+"un lietotāji-pārvaldnieki."
 
 #: templates/notifications/closed.tpl.text
 msgid ""
@@ -7409,7 +7411,7 @@ msgstr ""
 #: templates/custom_fields.tpl.html templates/impact_analysis.tpl.html
 #: templates/update_form.tpl.html
 msgid "Update"
-msgstr ""
+msgstr "Atjaunināt"
 
 #: templates/manage/email_accounts.tpl.html
 msgid "Update Account"
@@ -7467,7 +7469,7 @@ msgstr ""
 
 #: templates/view_form.tpl.html
 msgid "Update Issue"
-msgstr ""
+msgstr "Atjaunināt uzdevumu"
 
 #: templates/update_form.tpl.html
 msgid "Update Issue #%1"
@@ -7569,7 +7571,7 @@ msgstr ""
 
 #: templates/attachments.tpl.html templates/file_upload.tpl.html
 msgid "Upload File"
-msgstr ""
+msgstr "Augšupielādēt failu"
 
 #: templates/preferences.tpl.html
 msgid "Upload New Signature"
