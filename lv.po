@@ -1859,7 +1859,7 @@ msgstr ""
 
 #: templates/email_drafts.tpl.html
 msgid "Drafts"
-msgstr ""
+msgstr "Melnraksti"
 
 #: templates/setup.tpl.html
 msgid "Drop Tables If They Already Exist"
@@ -2978,7 +2978,7 @@ msgstr ""
 
 #: templates/notes.tpl.html
 msgid "Internal Notes"
-msgstr ""
+msgstr "Piezīmes"
 
 #: templates/bulk_update.tpl.html templates/close.tpl.html
 msgid "Internal Users"
@@ -3582,7 +3582,7 @@ msgstr ""
 
 #: templates/view_note.tpl.html
 msgid "Next Note"
-msgstr ""
+msgstr "Nākamā piezīme"
 
 #: lib/eventum/class.misc.php:691 templates/close.tpl.html
 #: templates/customer/example/report_form_fields.tpl.html
@@ -3603,7 +3603,7 @@ msgstr ""
 
 #: templates/reports/recent_activity.tpl.html
 msgid "No Drafts Found"
-msgstr ""
+msgstr "Melnrakstu nav"
 
 #: templates/reports/recent_activity.tpl.html
 msgid "No Emails Found"
@@ -3615,7 +3615,7 @@ msgstr ""
 
 #: templates/reports/recent_activity.tpl.html
 msgid "No Notes Found"
-msgstr ""
+msgstr "Piezīmju nav."
 
 #: templates/reports/recent_activity.tpl.html
 msgid "No Phone Calls Found"
@@ -3724,7 +3724,7 @@ msgstr ""
 
 #: templates/notes.tpl.html
 msgid "No internal notes could be found."
-msgstr ""
+msgstr "Iekšējo piezīmju nav."
 
 #: templates/view_form.tpl.html
 msgid "No issues associated"
@@ -3834,7 +3834,7 @@ msgstr ""
 #: templates/manage/time_tracking.tpl.html templates/setup.tpl.html
 #: templates/update_form.tpl.html templates/view_form.tpl.html
 msgid "Note"
-msgstr ""
+msgstr "Piezīme"
 
 #: templates/manage/general.tpl.html
 msgid "Note Address Prefix:"
@@ -5312,7 +5312,7 @@ msgstr ""
 
 #: templates/support_emails.tpl.html templates/view_email.tpl.html
 msgid "Received"
-msgstr ""
+msgstr "Saņemts"
 
 #: templates/reports/recent_activity.tpl.html
 msgid "Recent"
@@ -5656,11 +5656,11 @@ msgstr ""
 
 #: lib/eventum/class.filter.php:767 templates/adv_search.tpl.html
 msgid "Rows Per Page"
-msgstr ""
+msgstr "Uzdevumi lapā"
 
 #: templates/emails.tpl.html templates/list.tpl.html
 msgid "Rows per Page:"
-msgstr ""
+msgstr "Uzdevumi lapā:"
 
 #: templates/adv_search.tpl.html
 msgid "Run Search"
@@ -5847,7 +5847,7 @@ msgstr ""
 
 #: templates/emails.tpl.html templates/list.tpl.html
 msgid "Set"
-msgstr ""
+msgstr "Iestatīt"
 
 #: templates/bulk_update.tpl.html
 msgid "Set Close Message"
@@ -5875,7 +5875,7 @@ msgstr ""
 
 #: templates/email_drafts.tpl.html
 msgid "Show All Drafts"
-msgstr ""
+msgstr "Rādīt visus melnrakstus"
 
 #: templates/manage/anonymous.tpl.html
 msgid "Show Custom Fields ?"
@@ -7210,11 +7210,11 @@ msgstr ""
 #: templates/reports/stalled_issues.tpl.html templates/send.tpl.html
 #: templates/time_tracking.tpl.html
 msgid "Time Spent"
-msgstr ""
+msgstr "Patērētais laiks"
 
 #: templates/post_note.tpl.html
 msgid "Time Spent:"
-msgstr ""
+msgstr "Patērētais laiks:"
 
 #: lib/eventum/class.customer_stats_report.php:734
 msgid "Time Statistics"
@@ -7360,7 +7360,7 @@ msgstr ""
 
 #: templates/reports/weekly_data.tpl.html templates/time_tracking.tpl.html
 msgid "Total Time Spent"
-msgstr ""
+msgstr "Patērētais laiks kopā"
 
 #: lib/eventum/class.customer_stats_report.php:684
 msgid "Total Workload by Support Level"
@@ -7601,11 +7601,11 @@ msgstr ""
 #: templates/checkins.tpl.html templates/notes.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/time_tracking.tpl.html
 msgid "User"
-msgstr ""
+msgstr "Lietotājs"
 
 #: templates/preferences.tpl.html
 msgid "User Details"
-msgstr ""
+msgstr "Informācija par lietotāju"
 
 #: lib/eventum/class.help.php:149 templates/help/main.tpl.html
 #: templates/help/permission_levels.tpl.html
@@ -7623,11 +7623,11 @@ msgstr ""
 #: templates/manage/email_accounts.tpl.html templates/manage/general.tpl.html
 #: templates/setup.tpl.html
 msgid "Username"
-msgstr ""
+msgstr "Lietotājvārds"
 
 #: templates/manage/projects.tpl.html
 msgid "Users"
-msgstr ""
+msgstr "Lietotāji"
 
 #: templates/authorized_replier.tpl.html
 msgid ""
@@ -7637,7 +7637,7 @@ msgstr ""
 
 #: templates/manage/groups.tpl.html
 msgid "Users:"
-msgstr ""
+msgstr "Lietotāji:"
 
 #: templates/reports/customer_stats.tpl.html
 msgid "Using CSC"
@@ -7900,7 +7900,7 @@ msgstr ""
 #: templates/preferences.tpl.html templates/setup.tpl.html
 #: templates/update_form.tpl.html
 msgid "Yes"
-msgstr ""
+msgstr "Jā"
 
 #: templates/select_project.tpl.html
 msgid "You are not allowed to use the selected project."
@@ -8273,7 +8273,7 @@ msgstr ""
 
 #: templates/navigation.tpl.html
 msgid "keywords"
-msgstr ""
+msgstr "atslēgvārdi"
 
 #: templates/add_phone_entry.tpl.html
 msgid "last name"
