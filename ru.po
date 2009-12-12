@@ -47,22 +47,22 @@ msgstr "% Выполнено"
 
 #: templates/manage/field_display.tpl.html
 msgid "%1 Field"
-msgstr ""
+msgstr "%1 Поле"
 
 #: lib/eventum/class.filter.php:673
 #, php-format
 msgid "%1$s Group"
-msgstr ""
+msgstr "%1$s Группа"
 
 #: lib/eventum/class.filter.php:602
 #, php-format
 msgid "%1$s or greater"
-msgstr ""
+msgstr "%1$s или больше"
 
 #: lib/eventum/class.filter.php:605
 #, php-format
 msgid "%1$s or less"
-msgstr ""
+msgstr "%1$s или меньше"
 
 #: templates/manage/time_tracking.tpl.html
 msgid ""
@@ -76,7 +76,7 @@ msgstr ""
 
 #: templates/manage/general.tpl.html
 msgid "(Alternate domains that point to 'Address Hostname')"
-msgstr "(Дополнительный домен, который ссылается на 'Имя хоста адреса')"
+msgstr "(Альтернативные домены, которые обращаются к \"Адрес хоста\")"
 
 #: templates/reports/workload_time_period.tpl.html
 msgid "(GMT)"
@@ -114,7 +114,7 @@ msgstr "(директория по умолчанию INBOX)"
 
 #: templates/manage/general.tpl.html
 msgid "(e.g. %1)"
-msgstr ""
+msgstr "(нарпимер %1)"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "(hold 'ALT' key and press '3' one time) - to access the 'Search' box"
@@ -8852,9 +8852,8 @@ msgid "year"
 msgstr "год"
 
 #: lib/eventum/class.template_helper.php:175
-#, fuzzy
 msgid "(archived)"
-msgstr "(архивный)"
+msgstr "(архивировано)"
 
 #~ msgid "Port:"
 #~ msgstr "Порт:"
