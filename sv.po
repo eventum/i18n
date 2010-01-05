@@ -204,7 +204,7 @@ msgstr "En ny användare skapades just för dig i systemet."
 msgid "ADDED"
 msgstr ""
 
-#: lib/eventum/class.mail_helper.php:464
+#: lib/eventum/class.mail_helper.php:464 lib/eventum/class.mail_helper.php:467
 msgid "ADVISORY: Your reply will be sent to the notification list."
 msgstr ""
 
@@ -968,11 +968,11 @@ msgstr "Bifogad e-post"
 msgid "Attached Files"
 msgstr "Bifogade filer"
 
-#: lib/eventum/class.support.php:1447
+#: lib/eventum/class.support.php:1447 lib/eventum/class.support.php:1452
 msgid "Attachment originated from a note"
 msgstr ""
 
-#: lib/eventum/class.support.php:1445
+#: lib/eventum/class.support.php:1445 lib/eventum/class.support.php:1450
 msgid "Attachment originated from an email"
 msgstr ""
 
@@ -2016,12 +2016,12 @@ msgstr "Redigera signatur"
 msgid "Email"
 msgstr "E-post"
 
-#: lib/eventum/class.support.php:1499
+#: lib/eventum/class.support.php:1499 lib/eventum/class.support.php:1504
 #, php-format
 msgid "Email (subject: '%1$s') associated by %2$s"
 msgstr ""
 
-#: lib/eventum/class.support.php:1842
+#: lib/eventum/class.support.php:1842 lib/eventum/class.support.php:1847
 #, php-format
 msgid "Email (subject: '%1$s') disassociated by %2$s"
 msgstr ""
@@ -2130,7 +2130,7 @@ msgstr ""
 msgid "Email by time period"
 msgstr ""
 
-#: lib/eventum/class.support.php:2566
+#: lib/eventum/class.support.php:2566 lib/eventum/class.support.php:2571
 #, php-format
 msgid "Email from '%1$s' blocked"
 msgstr ""
@@ -2146,6 +2146,7 @@ msgid "Email message saved as a draft by %1$s"
 msgstr ""
 
 #: lib/eventum/class.routing.php:220 lib/eventum/class.support.php:789
+#: lib/eventum/class.support.php:794
 #, php-format
 msgid "Email routed from %1$s"
 msgstr ""
@@ -3614,7 +3615,7 @@ msgstr "Nästa notering"
 #: templates/manage/reminders.tpl.html templates/manage/statuses.tpl.html
 #: templates/new.tpl.html templates/post_note.tpl.html
 #: templates/preferences.tpl.html templates/setup.tpl.html
-#: templates/update_form.tpl.html
+#: templates/update_form.tpl.html lib/eventum/class.misc.php:693
 msgid "No"
 msgstr "Nej"
 
@@ -4057,7 +4058,7 @@ msgstr ""
 msgid "Outgoing Email Sender Name"
 msgstr ""
 
-#: lib/eventum/class.support.php:2200
+#: lib/eventum/class.support.php:2200 lib/eventum/class.support.php:2205
 #, php-format
 msgid "Outgoing email sent by %1$s"
 msgstr ""
@@ -7774,7 +7775,7 @@ msgstr ""
 "skicka meddelandet till eventuella kunder som finns med i notifieringslistan "
 "för ärendet."
 
-#: lib/eventum/class.mail_helper.php:466
+#: lib/eventum/class.mail_helper.php:466 lib/eventum/class.mail_helper.php:469
 msgid "WARNING: If replying, add yourself to Authorized Repliers list first."
 msgstr ""
 
@@ -7990,7 +7991,7 @@ msgstr ""
 #: templates/manage/reminders.tpl.html templates/manage/statuses.tpl.html
 #: templates/new.tpl.html templates/post_note.tpl.html
 #: templates/preferences.tpl.html templates/setup.tpl.html
-#: templates/update_form.tpl.html
+#: templates/update_form.tpl.html lib/eventum/class.misc.php:691
 msgid "Yes"
 msgstr "Ja"
 

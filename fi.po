@@ -209,7 +209,7 @@ msgstr "Uusi käyttäjä lisättiin juuri järjestelmään."
 msgid "ADDED"
 msgstr ""
 
-#: lib/eventum/class.mail_helper.php:464
+#: lib/eventum/class.mail_helper.php:464 lib/eventum/class.mail_helper.php:467
 msgid "ADVISORY: Your reply will be sent to the notification list."
 msgstr "TIEDOTUS: Vastauksesi lähetetään muistutuslistalle."
 
@@ -975,11 +975,11 @@ msgstr "Liitetyt sähköpostiviestit"
 msgid "Attached Files"
 msgstr "Liitetyt tiedostot"
 
-#: lib/eventum/class.support.php:1447
+#: lib/eventum/class.support.php:1447 lib/eventum/class.support.php:1452
 msgid "Attachment originated from a note"
 msgstr "Liite tuli viestistä"
 
-#: lib/eventum/class.support.php:1445
+#: lib/eventum/class.support.php:1445 lib/eventum/class.support.php:1450
 msgid "Attachment originated from an email"
 msgstr "Liite tuli sähköpostista"
 
@@ -2045,12 +2045,12 @@ msgstr "Muokkaa allekirjoitusta"
 msgid "Email"
 msgstr "Sähköposti"
 
-#: lib/eventum/class.support.php:1499
+#: lib/eventum/class.support.php:1499 lib/eventum/class.support.php:1504
 #, php-format
 msgid "Email (subject: '%1$s') associated by %2$s"
 msgstr "Sähköposti (aihe: '%1$s') liittäjänä %2$s"
 
-#: lib/eventum/class.support.php:1842
+#: lib/eventum/class.support.php:1842 lib/eventum/class.support.php:1847
 #, php-format
 msgid "Email (subject: '%1$s') disassociated by %2$s"
 msgstr "Sähköposti (aihe: '%1$s') liitoksen poistajana %2$s"
@@ -2159,7 +2159,7 @@ msgstr "Sähköpostit aikajaksoittain"
 msgid "Email by time period"
 msgstr "Sähköpostit aikajaksoittain"
 
-#: lib/eventum/class.support.php:2566
+#: lib/eventum/class.support.php:2566 lib/eventum/class.support.php:2571
 #, php-format
 msgid "Email from '%1$s' blocked"
 msgstr "Sähköpostiviesti lähettäjältä '%1$s' estetty"
@@ -2175,6 +2175,7 @@ msgid "Email message saved as a draft by %1$s"
 msgstr "Sähköpostiviestin tallensi luonnokseksi %1$s"
 
 #: lib/eventum/class.routing.php:220 lib/eventum/class.support.php:789
+#: lib/eventum/class.support.php:794
 #, php-format
 msgid "Email routed from %1$s"
 msgstr "Sähköposti välitetty %1$s"
@@ -3680,7 +3681,7 @@ msgstr "Seuraava viesti"
 #: templates/manage/reminders.tpl.html templates/manage/statuses.tpl.html
 #: templates/new.tpl.html templates/post_note.tpl.html
 #: templates/preferences.tpl.html templates/setup.tpl.html
-#: templates/update_form.tpl.html
+#: templates/update_form.tpl.html lib/eventum/class.misc.php:693
 msgid "No"
 msgstr "Ei"
 
@@ -4130,7 +4131,7 @@ msgstr "Uloslähtevän sähköpostin lähettäjän osoite"
 msgid "Outgoing Email Sender Name"
 msgstr "Sähköpostin lähettäjän nimi"
 
-#: lib/eventum/class.support.php:2200
+#: lib/eventum/class.support.php:2200 lib/eventum/class.support.php:2205
 #, php-format
 msgid "Outgoing email sent by %1$s"
 msgstr "Sähköpostiviestin lähettäjänä %1$s"
@@ -7874,7 +7875,7 @@ msgstr ""
 "VAROITUS: Tämän viestin muuntamien sähköpostiviestiksi lähettää sähköpostin "
 "kaikille asiakkaille, jotka ovat tämän vikailmoituksen muistutuslistassa."
 
-#: lib/eventum/class.mail_helper.php:466
+#: lib/eventum/class.mail_helper.php:466 lib/eventum/class.mail_helper.php:469
 msgid "WARNING: If replying, add yourself to Authorized Repliers list first."
 msgstr ""
 "VAROITUS: Jos vastaat, lisää itsesi oikeutettujen vastaajien listaan ensin."
@@ -8100,7 +8101,7 @@ msgstr "Työmäärä aikajaksoittain"
 #: templates/manage/reminders.tpl.html templates/manage/statuses.tpl.html
 #: templates/new.tpl.html templates/post_note.tpl.html
 #: templates/preferences.tpl.html templates/setup.tpl.html
-#: templates/update_form.tpl.html
+#: templates/update_form.tpl.html lib/eventum/class.misc.php:691
 msgid "Yes"
 msgstr "Kyllä"
 

@@ -227,7 +227,7 @@ msgstr "Se acaba de crear un nuevo usuario para usted en el sistema."
 msgid "ADDED"
 msgstr "AÑADIDO"
 
-#: lib/eventum/class.mail_helper.php:464
+#: lib/eventum/class.mail_helper.php:464 lib/eventum/class.mail_helper.php:467
 msgid "ADVISORY: Your reply will be sent to the notification list."
 msgstr "AVISO: Su respuesta será enviada a la lista de notificación."
 
@@ -1081,11 +1081,11 @@ msgstr "Emails Adjuntados"
 msgid "Attached Files"
 msgstr "Archivos Adjuntos"
 
-#: lib/eventum/class.support.php:1447
+#: lib/eventum/class.support.php:1447 lib/eventum/class.support.php:1452
 msgid "Attachment originated from a note"
 msgstr "Adjuntos originados desde una nota"
 
-#: lib/eventum/class.support.php:1445
+#: lib/eventum/class.support.php:1445 lib/eventum/class.support.php:1450
 msgid "Attachment originated from an email"
 msgstr "Adjuntos originados desde un email"
 
@@ -2174,12 +2174,12 @@ msgstr "Editar Firma"
 msgid "Email"
 msgstr "Email"
 
-#: lib/eventum/class.support.php:1499
+#: lib/eventum/class.support.php:1499 lib/eventum/class.support.php:1504
 #, php-format
 msgid "Email (subject: '%1$s') associated by %2$s"
 msgstr "Email (asunto: '%1$s') asociado por %2$s"
 
-#: lib/eventum/class.support.php:1842
+#: lib/eventum/class.support.php:1842 lib/eventum/class.support.php:1847
 #, php-format
 msgid "Email (subject: '%1$s') disassociated by %2$s"
 msgstr "Email (asunto: '%1$s') desasociado por %2$s"
@@ -2290,7 +2290,7 @@ msgstr "Emails por Período de Tiempo"
 msgid "Email by time period"
 msgstr "Correo por período de tiempo"
 
-#: lib/eventum/class.support.php:2566
+#: lib/eventum/class.support.php:2566 lib/eventum/class.support.php:2571
 #, php-format
 msgid "Email from '%1$s' blocked"
 msgstr "Email de '%1$s' bloqueado"
@@ -2306,6 +2306,7 @@ msgid "Email message saved as a draft by %1$s"
 msgstr "Mensaje de correo guardado como borrador por %1$s"
 
 #: lib/eventum/class.routing.php:220 lib/eventum/class.support.php:789
+#: lib/eventum/class.support.php:794
 #, php-format
 msgid "Email routed from %1$s"
 msgstr "Correo electrónico enrutado desde %1$s"
@@ -3863,7 +3864,7 @@ msgstr "Siguiente Nota"
 #: templates/manage/reminders.tpl.html templates/manage/statuses.tpl.html
 #: templates/new.tpl.html templates/post_note.tpl.html
 #: templates/preferences.tpl.html templates/setup.tpl.html
-#: templates/update_form.tpl.html
+#: templates/update_form.tpl.html lib/eventum/class.misc.php:693
 msgid "No"
 msgstr "No"
 
@@ -4326,7 +4327,7 @@ msgstr "Dirección del Remitente del Correo Saliente"
 msgid "Outgoing Email Sender Name"
 msgstr "Nombre del Remitente del Correo Saliente"
 
-#: lib/eventum/class.support.php:2200
+#: lib/eventum/class.support.php:2200 lib/eventum/class.support.php:2205
 #, php-format
 msgid "Outgoing email sent by %1$s"
 msgstr "Email saliente enviado por %1$s"
@@ -8417,7 +8418,7 @@ msgstr ""
 "cualquier cliente que pueda estar incluido en la lista de notificaciones de "
 "este caso."
 
-#: lib/eventum/class.mail_helper.php:466
+#: lib/eventum/class.mail_helper.php:466 lib/eventum/class.mail_helper.php:469
 msgid "WARNING: If replying, add yourself to Authorized Repliers list first."
 msgstr ""
 "ADVERTENCIA: En caso de responder, agréguese primero usted mismo a la Lista "
@@ -8660,7 +8661,7 @@ msgstr "Carga de trabajo por período de tiempo"
 #: templates/manage/reminders.tpl.html templates/manage/statuses.tpl.html
 #: templates/new.tpl.html templates/post_note.tpl.html
 #: templates/preferences.tpl.html templates/setup.tpl.html
-#: templates/update_form.tpl.html
+#: templates/update_form.tpl.html lib/eventum/class.misc.php:691
 msgid "Yes"
 msgstr "Sí"
 
