@@ -118,7 +118,7 @@ msgstr ""
 
 #: lib/eventum/class.template_helper.php:175
 msgid "(archived)"
-msgstr ""
+msgstr "(archivado)"
 
 #: templates/manage/email_accounts.tpl.html
 msgid "(default folder is INBOX)"
@@ -187,6 +187,8 @@ msgid ""
 "<b>NOTE:</b> Email will be broadcasted to the full notification list, "
 "including any customers, if this option is chosen."
 msgstr ""
+"<b>NOTA:</b> El email será difundido a toda la lista de notificación, "
+"incluyendo cualquier cliente, si es que esta opción ha sido escogida."
 
 #: templates/associate.tpl.html
 msgid ""
@@ -6168,7 +6170,7 @@ msgstr ""
 
 #: templates/associate.tpl.html
 msgid "Save Message as an Internal Note"
-msgstr ""
+msgstr "Guardar el mensaje como una nota interna"
 
 #: templates/add_phone_entry.tpl.html
 msgid "Save Phone Call"
@@ -7783,10 +7785,13 @@ msgid ""
 "\n"
 "%2."
 msgstr ""
+"Este caso ya lo cerró %1 con el mensaje:\n"
+"\n"
+"%2"
 
 #: templates/notifications/closed.tpl.text
 msgid "This issue was just closed by %1."
-msgstr ""
+msgstr "Este caso ya fue cerrado por %1."
 
 #: templates/view_email.tpl.html
 msgid "This message already belongs to that account"
@@ -8382,7 +8387,7 @@ msgstr "Observador"
 
 #: templates/emails.tpl.html
 msgid "Viewing Emails (%1 email found)"
-msgstr ""
+msgstr "Monstrando correos (%1 encontrados)"
 
 #: lib/eventum/class.help.php:121 templates/help/main.tpl.html
 #: templates/help/view.tpl.html
