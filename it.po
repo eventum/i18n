@@ -25,6 +25,8 @@ msgid ""
 "\n"
 "To add more information to this issue, simply reply to this email."
 msgstr ""
+"\n"
+"Per aggiungere nuove informazioni a questo problema,rispondi a questa email."
 
 #: templates/notifications/new_auto_created_issue.tpl.text
 msgid ""
@@ -86,6 +88,7 @@ msgstr ""
 #: templates/manage/general.tpl.html
 msgid "(This MUST contain a real email address, e.g. \"%1\" or \"%2\")"
 msgstr ""
+"(Questo DEVE essere  un vero indirizzo email,per esempio . \"%1\" or \"%2\")"
 
 #: templates/manage/general.tpl.html
 msgid ""
@@ -110,11 +113,13 @@ msgstr "(la cartella di default è INBOX)"
 
 #: templates/manage/general.tpl.html
 msgid "(e.g. %1)"
-msgstr ""
+msgstr "(per esempio %1)"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "(hold 'ALT' key and press '3' one time) - to access the 'Search' box"
 msgstr ""
+"(tieni premuto  'ALT' e premi  '3' una volta) - per accedere al box d "
+"'Ricerca'"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "(hold 'ALT' key and press '4' one time) - to access the 'Go' box"
@@ -8844,7 +8849,6 @@ msgid "year"
 msgstr "anno"
 
 #: lib/eventum/class.template_helper.php:175
-#, fuzzy
 msgid "(archived)"
 msgstr "(archiviato)"
 
