@@ -181,6 +181,9 @@ msgid ""
 "option if chosen. This is useful as way to backload a set of emails into an "
 "existing issue."
 msgstr ""
+"<b>NOTA:</b> El email <b>NO</b> será enviado a la lista de notificación, si "
+"es que ha sido escogida esta opción. Esto es muy útil para descargar una "
+"serie de emails en un caso ya existente."
 
 #: templates/associate.tpl.html
 msgid ""
@@ -195,6 +198,8 @@ msgid ""
 "<b>NOTE:</b> Email will be saved as a note and broadcasted only to staff "
 "users."
 msgstr ""
+"<b>NOTA:</b> El email será guardado como una nota y enviado sólo a los "
+"usuarios del personal."
 
 #: templates/manage/email_accounts.tpl.html
 msgid ""
@@ -2573,7 +2578,7 @@ msgstr "Instalación de Eventum"
 
 #: templates/header.tpl.html
 msgid "Eventum Issues search"
-msgstr ""
+msgstr "Buscador de Casos de Eventum"
 
 #: templates/setup.tpl.html
 msgid "Eventum Relative URL"
@@ -6166,7 +6171,7 @@ msgstr "Guardar Mensaje"
 
 #: templates/associate.tpl.html
 msgid "Save Message as Reference Email"
-msgstr ""
+msgstr "Guardar Mensaje como Email de Referencia"
 
 #: templates/associate.tpl.html
 msgid "Save Message as an Internal Note"
@@ -6212,7 +6217,7 @@ msgstr "Buscar"
 
 #: templates/opensearch.tpl.xml
 msgid "Search Eventum Issues"
-msgstr ""
+msgstr "Buscar Casos de Eventum"
 
 #: templates/list.tpl.html
 msgid "Search Results"
@@ -7077,7 +7082,7 @@ msgstr ""
 
 #: templates/associate.tpl.html
 msgid "Thank you, the selected email message was associated successfully."
-msgstr ""
+msgstr "Gracias, el email seleccionado fue asociado correctamente."
 
 #: templates/popup.tpl.html
 msgid "Thank you, the selected issues were updated successfully."
@@ -7328,7 +7333,7 @@ msgstr ""
 
 #: templates/self_assign.tpl.html
 msgid "The following user is already assigned to this issue"
-msgstr ""
+msgstr "El siguiente usuario ya está asignado a este caso"
 
 #: templates/help/view.tpl.html
 msgid ""
@@ -8981,7 +8986,7 @@ msgstr "detectada condición de error"
 
 #: templates/js/dynamic_custom_field.tpl.js
 msgid "first"
-msgstr ""
+msgstr "primero"
 
 #: templates/add_phone_entry.tpl.html
 msgid "first name"

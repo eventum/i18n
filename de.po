@@ -37,7 +37,7 @@ msgstr "#%1$s - %2$s"
 
 #: lib/eventum/class.display_column.php:195
 msgid "% Complete"
-msgstr "% komplett"
+msgstr "% vollständig"
 
 #: templates/manage/field_display.tpl.html
 msgid "%1 Field"
@@ -8923,9 +8923,8 @@ msgid "year"
 msgstr "Jahr"
 
 #: lib/eventum/class.template_helper.php:175
-#, fuzzy
 msgid "(archived)"
-msgstr "(archiviert)"
+msgstr ""
 
 #~ msgid " with the message"
 #~ msgstr " mit dieser Nachricht"
