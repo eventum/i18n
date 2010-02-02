@@ -193,7 +193,7 @@ msgstr ""
 
 #: templates/notifications/new_issue.tpl.text
 msgid "A new issue was just created in the system."
-msgstr ""
+msgstr "Tikko tika izveidots jauns uzdevums."
 
 #: templates/notifications/new_user.tpl.text
 msgid "A new user was just created for you in the system."
@@ -255,7 +255,7 @@ msgstr "Lietotāja izvēles"
 
 #: templates/signup.tpl.html
 msgid "Account Signup"
-msgstr ""
+msgstr "Konta reģistrācija"
 
 #: templates/manage/reminder_conditions.tpl.html
 #: templates/reminders/alert_no_recipients.tpl.text
