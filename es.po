@@ -5948,7 +5948,7 @@ msgstr ""
 
 #: templates/self_assign.tpl.html
 msgid "Replace current assignee with Myself."
-msgstr ""
+msgstr "Reemplazar el encargado actual por mí."
 
 #: templates/manage/link_filters.tpl.html
 msgid "Replacement"
@@ -8312,7 +8312,7 @@ msgstr "Utilizar Otro Usuario MySQL para el Uso Normal de Eventum"
 
 #: templates/manage/email_accounts.tpl.html
 msgid "Use account for non-subject based email/note/draft routing."
-msgstr ""
+msgstr "Usar cuenta para enrutamiento de correos/notas/borradores sin asunto"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "Use the following shortcuts"

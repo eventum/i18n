@@ -28,6 +28,8 @@ msgid ""
 "\n"
 "To add more information to this issue, simply reply to this email."
 msgstr ""
+"\n"
+"Для дополнения запроса просто ответьте на это письмо."
 
 #: templates/notifications/new_auto_created_issue.tpl.text
 msgid ""
@@ -35,6 +37,8 @@ msgid ""
 "To view more details of this issue, or to update it, please visit the "
 "following URL"
 msgstr ""
+"\n"
+"Пройдите по ссылке, чтобы получить больше информации о запросе."
 
 #: htdocs/view.php:74
 #, php-format
@@ -43,7 +47,7 @@ msgstr "#%1$s - %2$s"
 
 #: lib/eventum/class.display_column.php:195
 msgid "% Complete"
-msgstr "% Выполнено"
+msgstr "% выполнено"
 
 #: templates/manage/field_display.tpl.html
 msgid "%1 Field"
@@ -69,10 +73,12 @@ msgid ""
 "'Note Discussion', 'Email Discussion' and 'Telephone Discussion' categories "
 "are required by Eventum and cannot be deleted."
 msgstr ""
+"'Note Discussion', 'Email Discussion' и 'Telephone Discussion' категории "
+"обязательны и не могут быть удалены."
 
 #: templates/main.tpl.html
 msgid "(All Issues)"
-msgstr ""
+msgstr "(все запросы)"
 
 #: templates/manage/general.tpl.html
 msgid "(Alternate domains that point to 'Address Hostname')"
@@ -84,11 +90,12 @@ msgstr "(GMT)"
 
 #: templates/main.tpl.html
 msgid "(Open Issues)"
-msgstr ""
+msgstr "(активные запросы)"
 
 #: templates/manage/general.tpl.html
 msgid "(This MUST contain a real email address, e.g. \"%1\" or \"%2\")"
 msgstr ""
+"(Здесь ДОЛЖЕН содержаться реальный email адрес, такой как \"%1\" or \"%2\")"
 
 #: templates/manage/general.tpl.html
 msgid ""
@@ -106,11 +113,11 @@ msgstr ""
 
 #: templates/manage/email_accounts.tpl.html
 msgid "(Tip: port defaults are 110 for POP3 servers and 143 for IMAP ones)"
-msgstr "(Подсказка: по умолчанию порт 110 для серверов POP3 и 143 для IMAP)"
+msgstr "(обычно 110 порт для POP3 серверов, и 143 - для IMAP)"
 
 #: templates/manage/email_accounts.tpl.html
 msgid "(default folder is INBOX)"
-msgstr "(директория по умолчанию INBOX)"
+msgstr "(INBOX - папка по умолчанию)"
 
 #: templates/manage/general.tpl.html
 msgid "(e.g. %1)"
@@ -118,11 +125,12 @@ msgstr "(нарпимер %1)"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "(hold 'ALT' key and press '3' one time) - to access the 'Search' box"
-msgstr ""
+msgstr "Чтобы попасть в строку поиска, нажмите одновременно кнопки ALT и 3"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "(hold 'ALT' key and press '4' one time) - to access the 'Go' box"
 msgstr ""
+"Чтобы попасть в строку быстрого перехода, нажмите одновременно кнопки ALT и 4"
 
 #: templates/customer/example/report_form_fields.tpl.html
 msgid "(hold ctrl to select multiple options)"
@@ -134,7 +142,7 @@ msgstr "(в часах пожалуйста)"
 
 #: templates/setup.tpl.html
 msgid "(literally)"
-msgstr ""
+msgstr "(буквально)"
 
 #: templates/customer/example/report_form_fields.tpl.html
 msgid "(only technical contacts listed on your contract)"
@@ -142,7 +150,7 @@ msgstr "(перечислены только технические контак
 
 #: templates/manage/general.tpl.html
 msgid "(requires %1 installed in your server)"
-msgstr ""
+msgstr "(требуется, чтобы на сервере был установлен %1)"
 
 #: templates/manage/general.tpl.html
 msgid "(separate multiple addresses with commas)"
@@ -166,30 +174,41 @@ msgid ""
 "option if chosen. This is useful as way to backload a set of emails into an "
 "existing issue."
 msgstr ""
+"<b>ПРИМЕЧАНИЕ:</b> Эл.письмо <b>НЕ БУДЕТ</b> разослано по списку "
+"уведомлений, если выбрана эта опция. Может быть полезно для обратной "
+"загрузки набора эл.писем в существующий запрос."
 
 #: templates/associate.tpl.html
 msgid ""
 "<b>NOTE:</b> Email will be broadcasted to the full notification list, "
 "including any customers, if this option is chosen."
 msgstr ""
+"<b>ПРИМЕЧАНИЕ:</b> Эл.письмо будет разослано по списку уведомлений, включая "
+"всех клиентов, если выбрана эта опция."
 
 #: templates/associate.tpl.html
 msgid ""
 "<b>NOTE:</b> Email will be saved as a note and broadcasted only to staff "
 "users."
 msgstr ""
+"<b>ПРИМЕЧАНИЕ:</b> Эл.письмо будет сохранено как примечание и отправлено "
+"только сотрудникам."
 
 #: templates/manage/email_accounts.tpl.html
 msgid ""
 "<b>Note:</b> If you check this, you cannot leave a copy of messages on the "
 "server."
 msgstr ""
+"<b>Внимание!</b> Если это включить, вы не сможете сохранять на сервере копии "
+"отправленных писем."
 
 #: templates/setup.tpl.html
 msgid ""
 "<b>Note:</b> The SMTP (outgoing mail) configuration is needed to make sure "
 "emails are properly sent when creating new users/projects."
 msgstr ""
+"<b>Внимание!</b> Чтобы письма о создании новых пользователей и проектов "
+"могли быть отправлены, должна быть правильно настроена отправка почты (SMTP)."
 
 #: templates/notifications/new.tpl.text
 msgid "A new issue was just created and assigned to you."
@@ -222,15 +241,15 @@ msgstr "ВСЕ"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "ALT-3"
-msgstr ""
+msgstr "ALT-3"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "ALT-4"
-msgstr ""
+msgstr "ALT-4"
 
 #: templates/manage/custom_fields.tpl.html
 msgid "AND / OR"
-msgstr ""
+msgstr "и/или"
 
 #: templates/manage/statuses.tpl.html
 msgid "Abbreviation"
@@ -404,7 +423,7 @@ msgstr "Администратор"
 
 #: templates/manage/email_accounts.tpl.html
 msgid "Advanced Options"
-msgstr ""
+msgstr "Расширенные настройки"
 
 #: templates/adv_search.tpl.html templates/navigation.tpl.html
 #: templates/quick_filter_form.tpl.html
