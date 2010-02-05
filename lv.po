@@ -935,11 +935,11 @@ msgstr ""
 
 #: templates/view_form.tpl.html
 msgid "Associated Issues"
-msgstr ""
+msgstr "Saistītie uzdevumi"
 
 #: templates/update_form.tpl.html
 msgid "Associated Issues:"
-msgstr ""
+msgstr "Saistītie uzdevumi:"
 
 #: templates/manage/email_accounts.tpl.html
 msgid "Associated Project"
