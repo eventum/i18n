@@ -8574,3 +8574,9 @@ msgstr "Lūdzu, norādiet savu e-pasta adresi!"
 #: lib/eventum/class.template_helper.php:175
 msgid "(archived)"
 msgstr "(arhivēts)"
+
+#: templates/list.tpl.html
+msgid ""
+"%1:\n"
+"%2 ago"
+msgstr ""
