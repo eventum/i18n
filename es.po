@@ -9401,23 +9401,25 @@ msgid ""
 "%1:\n"
 "%2 ago"
 msgstr ""
+"%1:\n"
+"hace %2"
 
 #: templates/reports/custom_fields_weekly.tpl.html
 msgid "Custom Field"
-msgstr ""
+msgstr "Campo personalizado"
 
 #: templates/reports/custom_fields_weekly.tpl.html
 #: templates/reports/tree.tpl.html
 msgid "Custom Fields Weekly Report"
-msgstr ""
+msgstr "Campos personalizados Informe Semanal"
 
 #: templates/reports/custom_fields_weekly.tpl.html
 msgid "Options:"
-msgstr ""
+msgstr "Opciones:"
 
 #: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time spent as minutes"
-msgstr ""
+msgstr "El tiempo dedicado en minutos"
 
 #~ msgid "Port:"
 #~ msgstr "Puerto:"

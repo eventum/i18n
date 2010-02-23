@@ -400,7 +400,7 @@ msgstr "Administrator"
 
 #: templates/manage/email_accounts.tpl.html
 msgid "Advanced Options"
-msgstr ""
+msgstr "Erweiterte Optionen"
 
 #: templates/adv_search.tpl.html templates/navigation.tpl.html
 #: templates/quick_filter_form.tpl.html
@@ -1794,6 +1794,7 @@ msgstr "Datums-Feld:"
 
 #: templates/reports/customer_stats.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Date Range"
 msgstr "Zeitraum"
 
@@ -2322,6 +2323,7 @@ msgid "End time in the future."
 msgstr ""
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "End:"
 msgstr "Ende:"
 
@@ -2782,6 +2784,7 @@ msgstr "Allgemeine Einstellungen"
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Generate"
 msgstr "Erzeugen"
 
@@ -3181,6 +3184,7 @@ msgstr "Vorgangsdetails"
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issue ID"
 msgstr "ID"
 
@@ -3257,6 +3261,7 @@ msgid "Issues with only status changed"
 msgstr ""
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issues/Customers matching criteria"
 msgstr "Vorgang/Kunden zutreffende Kriterien"
 
@@ -3831,6 +3836,7 @@ msgid "No custom fields could be found."
 msgstr "Es konnten keine benutzerdefinierten Felder gefunden werden."
 
 #: htdocs/reports/custom_fields.php:55
+#: htdocs/reports/custom_fields_weekly.php:54
 msgid "No custom fields for this project"
 msgstr "Keine benutzerspezifischen Felder in diesem Projekt"
 
@@ -3843,6 +3849,7 @@ msgid "No customizations could be found."
 msgstr "Keine Anpassungen gefunden."
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "No data found"
 msgstr "Keine Daten gefunden"
 
@@ -4141,6 +4148,7 @@ msgstr "Operator:"
 
 #: templates/manage/custom_fields.tpl.html
 #: templates/reports/customer_stats.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Options"
 msgstr "Optionen"
 
@@ -5294,6 +5302,7 @@ msgstr ""
 "zugeordnetwerden."
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid ""
 "Please select the custom field that you would like to generate a report "
 "against."
@@ -5759,6 +5768,7 @@ msgid "Report Type"
 msgstr "Reportertyp"
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Report Type:"
 msgstr "Berichtstyp:"
 
@@ -6277,6 +6287,7 @@ msgstr "Standardbenutzer"
 #: templates/reports/custom_fields.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Start"
 msgstr "Beginn"
 
@@ -6381,7 +6392,7 @@ msgstr "Vorschläge:"
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/time_tracking.tpl.html
-#: templates/view_form.tpl.html
+#: templates/view_form.tpl.html templates/reports/custom_fields_weekly.tpl.html
 msgid "Summary"
 msgstr "Zusammenfassung"
 
@@ -7517,6 +7528,7 @@ msgstr "Zeitabschnitt"
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/send.tpl.html
 #: templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time Spent"
 msgstr "Verbrauchte Zeit"
 
@@ -8173,6 +8185,7 @@ msgstr ""
 
 #: templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Week"
 msgstr "Woche"
 
@@ -8181,6 +8194,7 @@ msgid "Week starts on:"
 msgstr ""
 
 #: templates/reports/weekly.tpl.html templates/reports/weekly_data.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Weekly"
 msgstr "Wöchentlich"
 
@@ -8924,6 +8938,29 @@ msgstr "Jahr"
 
 #: lib/eventum/class.template_helper.php:175
 msgid "(archived)"
+msgstr ""
+
+#: templates/list.tpl.html
+msgid ""
+"%1:\n"
+"%2 ago"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Custom Field"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#: templates/reports/tree.tpl.html
+msgid "Custom Fields Weekly Report"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Options:"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent as minutes"
 msgstr ""
 
 #~ msgid " with the message"
