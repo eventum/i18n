@@ -515,7 +515,7 @@ msgstr ""
 
 #: templates/manage/general.tpl.html
 msgid "Allow Un-Assigned Issues?"
-msgstr "Permitir Chamados sem Usuário Designado?"
+msgstr "Permitir Chamados Sem Usuário Designado?"
 
 #: templates/help/permission_levels.tpl.html
 msgid ""
@@ -1761,6 +1761,7 @@ msgstr "Campo de Data:"
 
 #: templates/reports/customer_stats.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Date Range"
 msgstr "Intervalo de Data"
 
@@ -2308,6 +2309,7 @@ msgid "End time in the future."
 msgstr "Hora final no futuro."
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "End:"
 msgstr "Fim:"
 
@@ -2775,6 +2777,7 @@ msgstr "Configuração Geral"
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Generate"
 msgstr "Gerar"
 
@@ -3210,6 +3213,7 @@ msgstr "Detalhes do Chamado"
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issue ID"
 msgstr "Número do Chamado"
 
@@ -3286,6 +3290,7 @@ msgid "Issues with only status changed"
 msgstr "Chamados em que apenas o status foi modificado"
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issues/Customers matching criteria"
 msgstr "Chamados/Clientes que correspondem ao critério"
 
@@ -3424,7 +3429,7 @@ msgstr "Listar Chamados"
 
 #: templates/emails.tpl.html
 msgid "List Removed Emails"
-msgstr "Listar Emails Removidos"
+msgstr "Listar Emails Excluídos"
 
 #: lib/eventum/class.help.php:101 templates/help/list.tpl.html
 #: templates/help/main.tpl.html
@@ -3870,6 +3875,7 @@ msgid "No custom fields could be found."
 msgstr "Nenhum campo personalizado foi encontrado."
 
 #: htdocs/reports/custom_fields.php:55
+#: htdocs/reports/custom_fields_weekly.php:54
 msgid "No custom fields for this project"
 msgstr "Este projeto não tem campos personalizados"
 
@@ -3882,6 +3888,7 @@ msgid "No customizations could be found."
 msgstr "Nenhuma personalização foi encontrada."
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "No data found"
 msgstr "Nenhum dado foi encontrado."
 
@@ -4198,6 +4205,7 @@ msgstr "Operador:"
 
 #: templates/manage/custom_fields.tpl.html
 #: templates/reports/customer_stats.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Options"
 msgstr "Opções"
 
@@ -4655,7 +4663,7 @@ msgstr ""
 
 #: templates/manage/email_alias.tpl.html
 msgid "Please choose which aliases need to be removed."
-msgstr "Por favor escolha quais emails alternativos devem ser removidos."
+msgstr "Por favor escolha quais emails alternativos devem ser excluídos."
 
 #: templates/emails.tpl.html
 msgid "Please choose which emails need to be associated."
@@ -4682,7 +4690,7 @@ msgstr ""
 #: templates/adv_search.tpl.html templates/attached_emails.tpl.html
 #: templates/checkins.tpl.html templates/impact_analysis.tpl.html
 msgid "Please choose which entries need to be removed."
-msgstr "Por favor escolha quais entradas devem ser removidas."
+msgstr "Por favor escolha quais entradas devem ser excluídas."
 
 #: templates/list.tpl.html
 msgid "Please choose which issues to update."
@@ -5381,6 +5389,7 @@ msgstr ""
 "que criam as próprias contas."
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid ""
 "Please select the custom field that you would like to generate a report "
 "against."
@@ -5566,7 +5575,7 @@ msgstr "Busca Rápida"
 
 #: templates/checkins.tpl.html
 msgid "REMOVED"
-msgstr "REMOVIDO"
+msgstr "EXCLUÍDO"
 
 #: templates/adv_search.tpl.html
 msgid "RSS feed for this custom search"
@@ -5787,25 +5796,25 @@ msgstr "Excluir"
 
 #: templates/view_form.tpl.html
 msgid "Remove Quarantine"
-msgstr "Remover da Quarentena"
+msgstr "Retirar da Quarentena"
 
 #: templates/adv_search.tpl.html templates/attached_emails.tpl.html
 #: templates/authorized_replier.tpl.html templates/checkins.tpl.html
 #: templates/impact_analysis.tpl.html templates/notification.tpl.html
 msgid "Remove Selected"
-msgstr "Remover Selecionado(a)s"
+msgstr "Excluir Selecionado(a)s"
 
 #: templates/emails.tpl.html
 msgid "Remove Selected Emails"
-msgstr "Remover Emails Selecionados"
+msgstr "Excluir Emails Selecionados"
 
 #: templates/attached_emails.tpl.html
 msgid "Remove?"
-msgstr "Remover?"
+msgstr "Excluir?"
 
 #: templates/main.tpl.html
 msgid "Removed"
-msgstr "Removidos"
+msgstr "Excluídos"
 
 #: templates/removed_emails.tpl.html
 msgid "Removed Emails"
@@ -5856,6 +5865,7 @@ msgid "Report Type"
 msgstr "Tipo de Relatório"
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Report Type:"
 msgstr "Tipo de Relatório:"
 
@@ -6388,6 +6398,7 @@ msgstr "Usuário Padrão"
 #: templates/reports/custom_fields.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Start"
 msgstr "Início"
 
@@ -6492,7 +6503,7 @@ msgstr "Sugestões:"
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/time_tracking.tpl.html
-#: templates/view_form.tpl.html
+#: templates/view_form.tpl.html templates/reports/custom_fields_weekly.tpl.html
 msgid "Summary"
 msgstr "Resumo"
 
@@ -6640,7 +6651,7 @@ msgstr "Obrigado, a ação foi atualizada com sucesso."
 msgid ""
 "Thank you, the association to the selected emails were removed successfully."
 msgstr ""
-"Obrigado, a associação com os emails selecionados foi removida com sucesso."
+"Obrigado, a associação com os emails selecionados foi excluída com sucesso."
 
 #: templates/popup.tpl.html
 msgid "Thank you, the attachment was removed successfully."
@@ -6704,7 +6715,7 @@ msgstr "Obrigado, a conta de email foi adicionada com sucesso."
 #: templates/manage/email_alias.tpl.html
 msgid "Thank you, the email aliases were removed successfully"
 msgstr ""
-"Obrigado, os endereços de email alternativos foram removidos com sucesso"
+"Obrigado, os endereços de email alternativos foram excluídos com sucesso"
 
 #: templates/send.tpl.html
 msgid "Thank you, the email message was saved as a draft successfully."
@@ -6989,7 +7000,7 @@ msgstr "Obrigado, o usuário foi atualizado com sucesso."
 
 #: templates/popup.tpl.html
 msgid "Thank you, this issue was removed from quarantine."
-msgstr "Obrigado, o chamado foi removido da quarentena."
+msgstr "Obrigado, o chamado foi retirado da quarentena."
 
 #: templates/self_assign.tpl.html
 msgid "Thank you, you are now assigned to the issue"
@@ -7736,6 +7747,7 @@ msgstr "Período de Tempo"
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/send.tpl.html
 #: templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time Spent"
 msgstr "Tempo Gasto"
 
@@ -7940,7 +7952,7 @@ msgstr "URL"
 
 #: templates/view_form.tpl.html
 msgid "Unassign Issue"
-msgstr "Remover Designados"
+msgstr "Excluir designação do chamado"
 
 #: templates/manage/releases.tpl.html
 msgid "Unavailable - Users may NOT use this release"
@@ -8407,6 +8419,7 @@ msgstr ""
 
 #: templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Week"
 msgstr "Semana"
 
@@ -8415,6 +8428,7 @@ msgid "Week starts on:"
 msgstr "Semana começa:"
 
 #: templates/reports/weekly.tpl.html templates/reports/weekly_data.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Weekly"
 msgstr "Semanal"
 
@@ -8564,7 +8578,7 @@ msgstr "Você não tem o perfil correto para acessar esta página"
 
 #: templates/popup.tpl.html
 msgid "You do not have the permission to remove this attachment."
-msgstr "Você não tem permissão para remover este anexo."
+msgstr "Você não tem permissão para excluir este anexo."
 
 #: templates/popup.tpl.html
 msgid "You do not have the permission to remove this file."
@@ -8914,7 +8928,7 @@ msgstr "listar chamados para os quais você foi designado"
 
 #: templates/emails.tpl.html
 msgid "list all removed emails"
-msgstr "listar todos os emails removidos"
+msgstr "listar todos os emails excluídos"
 
 #: templates/navigation.tpl.html
 msgid "list available emails"
@@ -9183,6 +9197,31 @@ msgstr "semana"
 #: templates/reports/customer_stats.tpl.html
 msgid "year"
 msgstr "ano"
+
+#: templates/list.tpl.html
+msgid ""
+"%1:\n"
+"%2 ago"
+msgstr ""
+"%1:\n"
+"%2 atrás"
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Custom Field"
+msgstr "Campo Personalizado"
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#: templates/reports/tree.tpl.html
+msgid "Custom Fields Weekly Report"
+msgstr "Relatório Semanal de Campos Personalizados"
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Options:"
+msgstr "Opções:"
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent as minutes"
+msgstr "Tempo gasto em minutos"
 
 #~ msgid " with the message"
 #~ msgstr " com a mensagem"
