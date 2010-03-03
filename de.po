@@ -22,6 +22,9 @@ msgid ""
 "\n"
 "To add more information to this issue, simply reply to this email."
 msgstr ""
+"\n"
+"Um weitere Informationen zu diesem Thema hinzuzufügen, antworten Sie einfach "
+"auf diese E-Mail"
 
 #: templates/notifications/new_auto_created_issue.tpl.text
 msgid ""
@@ -29,6 +32,9 @@ msgid ""
 "To view more details of this issue, or to update it, please visit the "
 "following URL"
 msgstr ""
+"\n"
+"Um weitere Informationen zu dieser Frage zu sehen oder diese zu "
+"aktualisieren, besuchen Sie bitte die folgende URL"
 
 #: htdocs/view.php:74
 #, php-format
@@ -37,7 +43,7 @@ msgstr "#%1$s - %2$s"
 
 #: lib/eventum/class.display_column.php:195
 msgid "% Complete"
-msgstr "% vollständig"
+msgstr "% abgeschlossen"
 
 #: templates/manage/field_display.tpl.html
 msgid "%1 Field"
@@ -63,10 +69,12 @@ msgid ""
 "'Note Discussion', 'Email Discussion' and 'Telephone Discussion' categories "
 "are required by Eventum and cannot be deleted."
 msgstr ""
+"'Notiz Diskussion', 'E-Mail Diskussion' und 'Telefon Diskussion' sind "
+"Kategorien die von Eventum erforderlich sind und nicht gelöscht werden kann"
 
 #: templates/main.tpl.html
 msgid "(All Issues)"
-msgstr ""
+msgstr "(Alle Probleme)"
 
 #: templates/manage/general.tpl.html
 msgid "(Alternate domains that point to 'Address Hostname')"
@@ -79,7 +87,7 @@ msgstr "(GMT)"
 
 #: templates/main.tpl.html
 msgid "(Open Issues)"
-msgstr ""
+msgstr "(Offene Probleme)"
 
 #: templates/manage/general.tpl.html
 msgid "(This MUST contain a real email address, e.g. \"%1\" or \"%2\")"
@@ -8938,7 +8946,7 @@ msgstr "Jahr"
 
 #: lib/eventum/class.template_helper.php:175
 msgid "(archived)"
-msgstr ""
+msgstr "(Archiviert)"
 
 #: templates/list.tpl.html
 msgid ""
