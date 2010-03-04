@@ -1701,6 +1701,7 @@ msgstr "Päivämääräkenttä:"
 
 #: templates/reports/customer_stats.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Date Range"
 msgstr "Aikaväli"
 
@@ -2242,6 +2243,7 @@ msgid "End time in the future."
 msgstr "Lopetusaika tulevaisuudessa."
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "End:"
 msgstr "Loppu:"
 
@@ -2699,6 +2701,7 @@ msgstr "Yleiset asetukset"
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Generate"
 msgstr "Luo"
 
@@ -3121,6 +3124,7 @@ msgstr "Vikailmoituksen yksityiskohdat"
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issue ID"
 msgstr "Vikailmoitus ID"
 
@@ -3197,6 +3201,7 @@ msgid "Issues with only status changed"
 msgstr "Vikailmoitukset, joissa ainoastaan tila on muuttunut"
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issues/Customers matching criteria"
 msgstr "Vikailmoitukset/Asiakkaat, jotka vastaavaat kriteerejä"
 
@@ -3770,6 +3775,7 @@ msgid "No custom fields could be found."
 msgstr "Lisäkenttiä ei löytynyt."
 
 #: htdocs/reports/custom_fields.php:55
+#: htdocs/reports/custom_fields_weekly.php:54
 msgid "No custom fields for this project"
 msgstr "Lisäkenttiä ei ole tälle projektille."
 
@@ -3782,6 +3788,7 @@ msgid "No customizations could be found."
 msgstr "Muokkauksia ei löytynyt."
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "No data found"
 msgstr "Dataa ei löytynyt"
 
@@ -4087,6 +4094,7 @@ msgstr "Operaattori:"
 
 #: templates/manage/custom_fields.tpl.html
 #: templates/reports/customer_stats.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Options"
 msgstr "Asetukset"
 
@@ -5196,6 +5204,7 @@ msgstr ""
 "käyttäjätilinsä."
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid ""
 "Please select the custom field that you would like to generate a report "
 "against."
@@ -5657,6 +5666,7 @@ msgid "Report Type"
 msgstr "Raportin tyyppi"
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Report Type:"
 msgstr "Raportin tyyppi"
 
@@ -6171,6 +6181,7 @@ msgstr "Peruskäyttäjä"
 #: templates/reports/custom_fields.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Start"
 msgstr "Aloita"
 
@@ -6275,7 +6286,7 @@ msgstr "Ehdotukset:"
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/time_tracking.tpl.html
-#: templates/view_form.tpl.html
+#: templates/view_form.tpl.html templates/reports/custom_fields_weekly.tpl.html
 msgid "Summary"
 msgstr "Yhteenveto"
 
@@ -7376,6 +7387,7 @@ msgstr "Ajanjakso"
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/send.tpl.html
 #: templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time Spent"
 msgstr "Aikaa käytetty"
 
@@ -7739,7 +7751,7 @@ msgstr "Päivitetään muistutusta"
 
 #: templates/attachments.tpl.html templates/file_upload.tpl.html
 msgid "Upload File"
-msgstr "Siirrä tiedosto"
+msgstr "Upload File"
 
 #: templates/preferences.tpl.html
 msgid "Upload New Signature"
@@ -8026,6 +8038,7 @@ msgstr ""
 
 #: templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Week"
 msgstr "Viikko"
 
@@ -8034,6 +8047,7 @@ msgid "Week starts on:"
 msgstr ""
 
 #: templates/reports/weekly.tpl.html templates/reports/weekly_data.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Weekly"
 msgstr "Viikottainen"
 
@@ -8772,6 +8786,29 @@ msgstr "vuosi"
 #: lib/eventum/class.template_helper.php:175
 msgid "(archived)"
 msgstr "(arkistoitu)"
+
+#: templates/list.tpl.html
+msgid ""
+"%1:\n"
+"%2 ago"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Custom Field"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#: templates/reports/tree.tpl.html
+msgid "Custom Fields Weekly Report"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Options:"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent as minutes"
+msgstr ""
 
 #~ msgid " with the message"
 #~ msgstr " viestillä"

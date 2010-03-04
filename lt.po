@@ -129,7 +129,7 @@ msgstr ""
 
 #: templates/customer/example/report_form_fields.tpl.html
 msgid "(hold ctrl to select multiple options)"
-msgstr ""
+msgstr "(norėdami pažymėti keletą laikykite nuspaudę CTRL mygtuką)"
 
 #: templates/manage/reminder_conditions.tpl.html
 msgid "(in hours please)"
@@ -175,6 +175,8 @@ msgid ""
 "<b>NOTE:</b> Email will be broadcasted to the full notification list, "
 "including any customers, if this option is chosen."
 msgstr ""
+"<b>Pastaba:</b> Laiškas bus išsiųstas  visiems gavėjams iš perpėjimų sąrašo, "
+"įtraukiant visus užsakovus, jeigu taip pasirinkta."
 
 #: templates/associate.tpl.html
 msgid ""
@@ -211,9 +213,10 @@ msgstr "Sistemoje jums sukurtas naujas vartotojas."
 msgid "ADDED"
 msgstr "PRIDĖTA"
 
-#: lib/eventum/class.mail_helper.php:464 lib/eventum/class.mail_helper.php:467
+#: lib/eventum/class.mail_helper.php:467
 msgid "ADVISORY: Your reply will be sent to the notification list."
 msgstr ""
+"PATARIMAS: Jūsų atsakymas bus išsiųstas visiems gavėjams iš perpėjimų sąrašo."
 
 #: templates/convert_note.tpl.html
 msgid "ALERT:"
@@ -222,7 +225,7 @@ msgstr "ĮSPĖJIMAS:"
 #: templates/adv_search.tpl.html templates/emails.tpl.html
 #: templates/list.tpl.html
 msgid "ALL"
-msgstr ""
+msgstr "VISI"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "ALT-3"
@@ -565,7 +568,7 @@ msgstr ""
 
 #: templates/manage/email_responses.tpl.html
 msgid "An error occurred while trying to add the new email response."
-msgstr ""
+msgstr "Įvyko klaida pridedant naują atsakymą elektroniniu paštu."
 
 #: templates/manage/groups.tpl.html
 msgid "An error occurred while trying to add the new group."
@@ -730,7 +733,7 @@ msgstr ""
 
 #: templates/notification.tpl.html
 msgid "An error occurred while trying to update the notification entry."
-msgstr ""
+msgstr "Klaida atnaujinant perspėjimų sąrašo įrašą."
 
 #: templates/manage/priorities.tpl.html
 msgid "An error occurred while trying to update the priority information."
@@ -815,7 +818,7 @@ msgstr ""
 
 #: templates/notification.tpl.html
 msgid "Are you sure you want to add this address to the notification list?"
-msgstr ""
+msgstr "Ar tikrai norite pridėti šį adresą į perspėjimų sąrašą?"
 
 #: templates/manage/manage.tpl.html
 msgid "Areas"
@@ -1693,6 +1696,7 @@ msgstr ""
 
 #: templates/reports/customer_stats.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Date Range"
 msgstr ""
 
@@ -1994,7 +1998,7 @@ msgstr ""
 
 #: templates/update_form.tpl.html templates/view_form.tpl.html
 msgid "Edit Notification List"
-msgstr ""
+msgstr "Keisti perspėjimų sąrašą"
 
 #: templates/manage/custom_fields.tpl.html
 msgid "Edit Option"
@@ -2217,6 +2221,7 @@ msgid "End time in the future."
 msgstr ""
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "End:"
 msgstr ""
 
@@ -2333,6 +2338,8 @@ msgid ""
 "Error: the given email address is not allowed to be added to the "
 "notification list."
 msgstr ""
+"Klaida: įvestas elektronio pašto adresas negali būti prijungtas prie "
+"perpėjimų sąrašo."
 
 #: templates/popup.tpl.html
 msgid "Error: the issue is already unassigned."
@@ -2660,12 +2667,13 @@ msgstr ""
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Generate"
 msgstr ""
 
 #: templates/notification.tpl.html
 msgid "Get a Notification When"
-msgstr ""
+msgstr "Gaukite perspėjimą kai"
 
 #: templates/adv_search.tpl.html
 msgid "Global Search"
@@ -2842,7 +2850,7 @@ msgstr ""
 
 #: templates/manage/general.tpl.html
 msgid "IRC Notifications:"
-msgstr ""
+msgstr "IRC perspėjimai:"
 
 #: templates/manage/general.tpl.html
 msgid ""
@@ -2907,7 +2915,7 @@ msgstr ""
 
 #: lib/eventum/class.filter.php:787 templates/adv_search.tpl.html
 msgid "In Notification List"
-msgstr ""
+msgstr "Perspėjimų sąraše"
 
 #: templates/adv_search.tpl.html
 msgid "In Past"
@@ -3053,6 +3061,7 @@ msgstr ""
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issue ID"
 msgstr ""
 
@@ -3129,6 +3138,7 @@ msgid "Issues with only status changed"
 msgstr ""
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issues/Customers matching criteria"
 msgstr ""
 
@@ -3692,6 +3702,7 @@ msgid "No custom fields could be found."
 msgstr ""
 
 #: htdocs/reports/custom_fields.php:55
+#: htdocs/reports/custom_fields_weekly.php:54
 msgid "No custom fields for this project"
 msgstr ""
 
@@ -3704,6 +3715,7 @@ msgid "No customizations could be found."
 msgstr ""
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "No data found"
 msgstr ""
 
@@ -3900,15 +3912,15 @@ msgstr ""
 #: templates/post_note.tpl.html templates/send.tpl.html
 #: templates/view_form.tpl.html
 msgid "Notification List"
-msgstr ""
+msgstr "Perspėjimų sąrašas"
 
 #: templates/update_form.tpl.html
 msgid "Notification List:"
-msgstr ""
+msgstr "Perspėjimų sąrašas:"
 
 #: templates/notification.tpl.html
 msgid "Notification Options"
-msgstr ""
+msgstr "Perspėjimų nustatymai"
 
 #: lib/eventum/class.notification.php:2006
 #, php-format
@@ -4002,6 +4014,7 @@ msgstr ""
 
 #: templates/manage/custom_fields.tpl.html
 #: templates/reports/customer_stats.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Options"
 msgstr ""
 
@@ -5093,6 +5106,7 @@ msgid ""
 msgstr ""
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid ""
 "Please select the custom field that you would like to generate a report "
 "against."
@@ -5543,6 +5557,7 @@ msgid "Report Type"
 msgstr ""
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Report Type:"
 msgstr ""
 
@@ -6054,6 +6069,7 @@ msgstr ""
 #: templates/reports/custom_fields.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Start"
 msgstr ""
 
@@ -6158,7 +6174,7 @@ msgstr ""
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/time_tracking.tpl.html
-#: templates/view_form.tpl.html
+#: templates/view_form.tpl.html templates/reports/custom_fields_weekly.tpl.html
 msgid "Summary"
 msgstr ""
 
@@ -7217,6 +7233,7 @@ msgstr ""
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/send.tpl.html
 #: templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time Spent"
 msgstr ""
 
@@ -7831,6 +7848,7 @@ msgstr ""
 
 #: templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Week"
 msgstr ""
 
@@ -7839,6 +7857,7 @@ msgid "Week starts on:"
 msgstr ""
 
 #: templates/reports/weekly.tpl.html templates/reports/weekly_data.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Weekly"
 msgstr ""
 
@@ -8547,7 +8566,7 @@ msgstr ""
 #: templates/manage/reminder_actions.tpl.html
 #: templates/manage/reminder_conditions.tpl.html
 msgid "view reminder details"
-msgstr ""
+msgstr "peržiūrėti priminimo informaciją"
 
 #: templates/view_form.tpl.html
 msgid "view the full history of changes on this issue"
@@ -8555,7 +8574,7 @@ msgstr ""
 
 #: templates/support_emails.tpl.html
 msgid "view the history of sent emails"
-msgstr ""
+msgstr "peržiūrėti išsiųstų elektroninių laiškų istoriją"
 
 #: templates/file_upload.tpl.html
 msgid "visible to all"
@@ -8580,3 +8599,26 @@ msgstr "Klaida: Prašome nurodyti elektroninio pašto adresą."
 #: lib/eventum/class.template_helper.php:175
 msgid "(archived)"
 msgstr "(archyvuota)"
+
+#: templates/list.tpl.html
+msgid ""
+"%1:\n"
+"%2 ago"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Custom Field"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#: templates/reports/tree.tpl.html
+msgid "Custom Fields Weekly Report"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Options:"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent as minutes"
+msgstr ""
