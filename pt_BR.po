@@ -3637,7 +3637,7 @@ msgstr "Móvel"
 msgid "Module / Directory"
 msgstr "Módulo / Diretório"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Monday"
 msgstr "Segunda"
 
@@ -6515,7 +6515,7 @@ msgstr "Campo Resumo"
 msgid "Summary:"
 msgstr "Resumo:"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Sunday"
 msgstr "Domingo"
 
@@ -7803,7 +7803,7 @@ msgstr "Entrada de apontamento de tempo adicionada remotamente por %1$s"
 
 #: templates/customer/example/customer_info.tpl.html
 #: templates/customer/example/report_form_fields.tpl.html
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Timezone"
 msgstr "Fuso Horário"
 
@@ -8423,7 +8423,7 @@ msgstr ""
 msgid "Week"
 msgstr "Semana"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Week starts on:"
 msgstr "Semana começa:"
 
@@ -9223,6 +9223,22 @@ msgstr "Opções:"
 msgid "Time spent as minutes"
 msgstr "Tempo gasto em minutos"
 
+#: templates/setup.tpl.html
+msgid "Note:"
+msgstr "Nota:"
+
+#: templates/setup.tpl.html
+msgid "Defaults"
+msgstr "Padrões"
+
+#: templates/setup.tpl.html
+msgid ""
+"The SMTP (outgoing mail) configuration is needed to make sure emails are "
+"properly sent when creating new users/projects."
+msgstr ""
+"É necessário configurar o SMTP (email sainte) para assegurar que os emails "
+"serão enviados adequadamente quando forem criados novos usuários/projetos."
+
 #~ msgid " with the message"
 #~ msgstr " com a mensagem"
 
@@ -9295,9 +9311,6 @@ msgstr "Tempo gasto em minutos"
 
 #~ msgid "Auto-Creation of Issues:"
 #~ msgstr "Abertura Automática de Chamados:"
-
-#~ msgid "Note:"
-#~ msgstr "Nota:"
 
 #~ msgid "CLOCKED"
 #~ msgstr "CRONOMETRANDO:"
