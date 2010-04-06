@@ -209,7 +209,7 @@ msgstr "W systemie został stworzony dla ciebie nowy użytkownik."
 
 #: templates/checkins.tpl.html
 msgid "ADDED"
-msgstr ""
+msgstr "DODANO"
 
 #: lib/eventum/class.mail_helper.php:464 lib/eventum/class.mail_helper.php:467
 msgid "ADVISORY: Your reply will be sent to the notification list."
@@ -226,11 +226,11 @@ msgstr "WSZYSTKIE"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "ALT-3"
-msgstr ""
+msgstr "ALT-3"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "ALT-4"
-msgstr ""
+msgstr "ALT-4"
 
 #: templates/manage/custom_fields.tpl.html
 msgid "AND / OR"
@@ -250,11 +250,11 @@ msgstr "Tworzenie konta"
 
 #: templates/manage/account_managers.tpl.html
 msgid "Account Manager"
-msgstr ""
+msgstr "Menadżer Kont"
 
 #: templates/manage/account_managers.tpl.html
 msgid "Account Manager:"
-msgstr ""
+msgstr "Menadżer Kont:"
 
 #: lib/eventum/class.help.php:113 templates/help/main.tpl.html
 #: templates/help/preferences.tpl.html templates/preferences.tpl.html
@@ -269,15 +269,15 @@ msgstr "Załóż konto."
 #: templates/reminders/alert_no_recipients.tpl.text
 #: templates/reminders/email_alert.tpl.text
 msgid "Action"
-msgstr ""
+msgstr "Akcja"
 
 #: templates/manage/reminder_actions.tpl.html
 msgid "Action Type"
-msgstr ""
+msgstr "Typ akcji"
 
 #: templates/manage/reminder_actions.tpl.html
 msgid "Action Type:"
-msgstr ""
+msgstr "Typ akcji:"
 
 #: templates/manage/projects.tpl.html templates/notification.tpl.html
 #: templates/reports/workload_time_period.tpl.html
@@ -312,7 +312,7 @@ msgstr "Dodaj"
 
 #: templates/manage/manage.tpl.html
 msgid "Add / Edit Categories"
-msgstr ""
+msgstr "Dodaj / Edytuj kategorie"
 
 #: templates/manage/manage.tpl.html
 msgid "Add / Edit Phone Support Categories"
@@ -1693,6 +1693,7 @@ msgstr ""
 
 #: templates/reports/customer_stats.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Date Range"
 msgstr "Zasięg dat"
 
@@ -2219,6 +2220,7 @@ msgid "End time in the future."
 msgstr ""
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "End:"
 msgstr "Koniec:"
 
@@ -2666,6 +2668,7 @@ msgstr ""
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Generate"
 msgstr "Wygeneruj"
 
@@ -3066,6 +3069,7 @@ msgstr ""
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issue ID"
 msgstr "ID zgłoszenia"
 
@@ -3142,6 +3146,7 @@ msgid "Issues with only status changed"
 msgstr ""
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issues/Customers matching criteria"
 msgstr ""
 
@@ -3481,7 +3486,7 @@ msgstr ""
 msgid "Module / Directory"
 msgstr "Moduł / Katalog"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Monday"
 msgstr ""
 
@@ -3709,6 +3714,7 @@ msgid "No custom fields could be found."
 msgstr ""
 
 #: htdocs/reports/custom_fields.php:55
+#: htdocs/reports/custom_fields_weekly.php:54
 msgid "No custom fields for this project"
 msgstr ""
 
@@ -3721,6 +3727,7 @@ msgid "No customizations could be found."
 msgstr ""
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "No data found"
 msgstr "Nie znaleziono danych"
 
@@ -4019,6 +4026,7 @@ msgstr ""
 
 #: templates/manage/custom_fields.tpl.html
 #: templates/reports/customer_stats.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Options"
 msgstr "Opcje"
 
@@ -5115,6 +5123,7 @@ msgid ""
 msgstr ""
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid ""
 "Please select the custom field that you would like to generate a report "
 "against."
@@ -5565,6 +5574,7 @@ msgid "Report Type"
 msgstr "Typ raportu"
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Report Type:"
 msgstr "Typ raportu:"
 
@@ -6077,6 +6087,7 @@ msgstr "Użytkownik domyślny"
 #: templates/reports/custom_fields.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Start"
 msgstr "Start"
 
@@ -6181,7 +6192,7 @@ msgstr "Sugestie:"
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/time_tracking.tpl.html
-#: templates/view_form.tpl.html
+#: templates/view_form.tpl.html templates/reports/custom_fields_weekly.tpl.html
 msgid "Summary"
 msgstr "Temat zgłoszenia"
 
@@ -6193,7 +6204,7 @@ msgstr "Pole Podsumowania"
 msgid "Summary:"
 msgstr "Podsumowanie:"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Sunday"
 msgstr ""
 
@@ -7250,6 +7261,7 @@ msgstr "Okres czasu"
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/send.tpl.html
 #: templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time Spent"
 msgstr "Czas poświęcony"
 
@@ -7304,7 +7316,7 @@ msgstr ""
 
 #: templates/customer/example/customer_info.tpl.html
 #: templates/customer/example/report_form_fields.tpl.html
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Timezone"
 msgstr "Strefa czasowa"
 
@@ -7868,14 +7880,16 @@ msgstr ""
 
 #: templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Week"
 msgstr "Tydzień"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Week starts on:"
 msgstr ""
 
 #: templates/reports/weekly.tpl.html templates/reports/weekly_data.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Weekly"
 msgstr "Tygodniowo"
 
@@ -8605,6 +8619,43 @@ msgstr "tydzień"
 #: templates/reports/customer_stats.tpl.html
 msgid "year"
 msgstr "rok"
+
+#: templates/list.tpl.html
+msgid ""
+"%1:\n"
+"%2 ago"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Custom Field"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#: templates/reports/tree.tpl.html
+msgid "Custom Fields Weekly Report"
+msgstr ""
+
+#: templates/setup.tpl.html
+msgid "Defaults"
+msgstr ""
+
+#: templates/setup.tpl.html
+msgid "Note:"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Options:"
+msgstr ""
+
+#: templates/setup.tpl.html
+msgid ""
+"The SMTP (outgoing mail) configuration is needed to make sure emails are "
+"properly sent when creating new users/projects."
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent as minutes"
+msgstr ""
 
 #~ msgid ""
 #~ "Warning: your issue is currently quarantined.\n"
