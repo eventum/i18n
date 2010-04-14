@@ -2108,6 +2108,8 @@ msgid ""
 "ERROR: The system doesn't have the appropriate permissions to update the "
 "configuration file in the setup directory"
 msgstr ""
+"FEHLER: Das System hat keine entsprechenden Erlaubnisse, die "
+"Konfigurationsdatei im Einstellungsverzeichnis zu aktualisieren"
 
 #: templates/customer/example/customer_info.tpl.html
 msgid "Edit"
@@ -3148,7 +3150,7 @@ msgstr "Installationsanweisung"
 
 #: templates/manage/custom_fields.tpl.html
 msgid "Integer"
-msgstr ""
+msgstr "Zahl"
 
 #: templates/navigation.tpl.html
 msgid "Internal FAQ"
@@ -3644,7 +3646,7 @@ msgstr "Handy"
 msgid "Module / Directory"
 msgstr "Module / Verzeichnis"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Monday"
 msgstr ""
 
@@ -6445,7 +6447,7 @@ msgstr "Zusammenfassung"
 msgid "Summary:"
 msgstr "Zusammenfassung:"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Sunday"
 msgstr ""
 
@@ -7624,7 +7626,7 @@ msgstr "Zeitüberwachungseintrag entfernt (remote) eingetragen durch %1$s"
 
 #: templates/customer/example/customer_info.tpl.html
 #: templates/customer/example/report_form_fields.tpl.html
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Timezone"
 msgstr "Zeitzone"
 
@@ -8230,7 +8232,7 @@ msgstr ""
 msgid "Week"
 msgstr "Woche"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Week starts on:"
 msgstr ""
 
@@ -9006,6 +9008,20 @@ msgstr ""
 msgid "Time spent as minutes"
 msgstr ""
 
+#: templates/setup.tpl.html
+msgid "Note:"
+msgstr "Notiz:"
+
+#: templates/setup.tpl.html
+msgid "Defaults"
+msgstr ""
+
+#: templates/setup.tpl.html
+msgid ""
+"The SMTP (outgoing mail) configuration is needed to make sure emails are "
+"properly sent when creating new users/projects."
+msgstr ""
+
 #~ msgid " with the message"
 #~ msgstr " mit dieser Nachricht"
 
@@ -9068,9 +9084,6 @@ msgstr ""
 
 #~ msgid "Auto-Creation of Issues:"
 #~ msgstr "Automatische Vorgangserstellung:"
-
-#~ msgid "Note:"
-#~ msgstr "Notiz:"
 
 #~ msgid "CLOCKED"
 #~ msgstr "Zeiterfassung"
