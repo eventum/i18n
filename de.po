@@ -1467,7 +1467,7 @@ msgstr "Datum Abschluß"
 
 #: templates/bulk_update.tpl.html
 msgid "Closed Message"
-msgstr ""
+msgstr "Geschlossene Nachricht"
 
 #: templates/expandable_cell/buttons.tpl.html
 msgid "Collapse all expanded cells"
@@ -7966,6 +7966,7 @@ msgstr ""
 
 #: templates/checkins.tpl.html templates/notes.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "User"
 msgstr "Benutzer"
 
@@ -9020,6 +9021,10 @@ msgstr ""
 msgid ""
 "The SMTP (outgoing mail) configuration is needed to make sure emails are "
 "properly sent when creating new users/projects."
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent per user"
 msgstr ""
 
 #~ msgid " with the message"

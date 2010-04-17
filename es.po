@@ -8332,6 +8332,7 @@ msgstr "Use los siguientes atajos"
 
 #: templates/checkins.tpl.html templates/notes.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "User"
 msgstr "Usuario"
 
@@ -9437,6 +9438,10 @@ msgstr ""
 "La configuración SMTP (correo saliente) es necesaria para asegurarse de que "
 "los mensajes de correo electrónico se envíen correctamente cuando se creen "
 "nuevos usuarios/proyectos."
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent per user"
+msgstr "Tiempo invertido por usuario"
 
 #~ msgid "Port:"
 #~ msgstr "Puerto:"

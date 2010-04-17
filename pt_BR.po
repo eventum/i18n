@@ -8152,6 +8152,7 @@ msgstr "Use os seguintes atalhos"
 
 #: templates/checkins.tpl.html templates/notes.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "User"
 msgstr "Usuário"
 
@@ -9238,6 +9239,10 @@ msgid ""
 msgstr ""
 "É necessário configurar o SMTP (email sainte) para assegurar que os emails "
 "serão enviados adequadamente quando forem criados novos usuários/projetos."
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent per user"
+msgstr "Tempo gasto por usuário"
 
 #~ msgid " with the message"
 #~ msgstr " com a mensagem"
