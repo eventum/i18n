@@ -115,10 +115,12 @@ msgstr "(piem., %1)"
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "(hold 'ALT' key and press '3' one time) - to access the 'Search' box"
 msgstr ""
+"(turiet taustiņu [ALT] un nospiediet [3]) — lai aktivizētu meklēšanas lodziņu"
 
 #: templates/tips/keyboard_shortcuts.tpl.html
 msgid "(hold 'ALT' key and press '4' one time) - to access the 'Go' box"
 msgstr ""
+"(turiet taustiņu [ALT] un nospiediet [4]) — lai aktivizētu atvēršanas lodziņu"
 
 #: templates/customer/example/report_form_fields.tpl.html
 msgid "(hold ctrl to select multiple options)"
@@ -2576,7 +2578,7 @@ msgstr "Faili"
 
 #: templates/manage/general.tpl.html templates/notification.tpl.html
 msgid "Files are Attached"
-msgstr "Faili ir piesaistīti"
+msgstr "Tiek piesaistīti faili"
 
 #: templates/help/notifications.tpl.html
 msgid "Files are attached to existing issues"
@@ -7614,6 +7616,7 @@ msgstr ""
 
 #: templates/checkins.tpl.html templates/notes.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "User"
 msgstr "Lietotājs"
 
@@ -8624,4 +8627,8 @@ msgstr ""
 
 #: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time spent as minutes"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent per user"
 msgstr ""
