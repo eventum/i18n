@@ -1725,6 +1725,7 @@ msgstr "Datumveld:"
 
 #: templates/reports/customer_stats.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Date Range"
 msgstr "Periode"
 
@@ -2265,6 +2266,7 @@ msgid "End time in the future."
 msgstr "Eindtijd ligt in de toekomst"
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "End:"
 msgstr "Einde:"
 
@@ -2722,6 +2724,7 @@ msgstr "Algemene Setup"
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Generate"
 msgstr "Genereren"
 
@@ -3146,6 +3149,7 @@ msgstr "Gegevens"
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issue ID"
 msgstr "Melding ID"
 
@@ -3222,6 +3226,7 @@ msgid "Issues with only status changed"
 msgstr "Alleen gewijzigd van status"
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issues/Customers matching criteria"
 msgstr "Criteria om meldingen en klanten te koppelen"
 
@@ -3563,7 +3568,7 @@ msgstr "Mobiel"
 msgid "Module / Directory"
 msgstr "Module / Map"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Monday"
 msgstr ""
 
@@ -3793,6 +3798,7 @@ msgid "No custom fields could be found."
 msgstr "Geen extra velden gevonden."
 
 #: htdocs/reports/custom_fields.php:55
+#: htdocs/reports/custom_fields_weekly.php:54
 msgid "No custom fields for this project"
 msgstr "Geen gedefinieerde velden voor dit project"
 
@@ -3805,6 +3811,7 @@ msgid "No customizations could be found."
 msgstr "Geen aanpassingen gevonden."
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "No data found"
 msgstr "Geen gegevens gevonden"
 
@@ -4110,6 +4117,7 @@ msgstr "Operator:"
 
 #: templates/manage/custom_fields.tpl.html
 #: templates/reports/customer_stats.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Options"
 msgstr "Opties"
 
@@ -5234,6 +5242,7 @@ msgstr ""
 "accounts aanmaken."
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid ""
 "Please select the custom field that you would like to generate a report "
 "against."
@@ -5697,6 +5706,7 @@ msgid "Report Type"
 msgstr "Soort rapportage"
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Report Type:"
 msgstr "Soort rapport"
 
@@ -6209,6 +6219,7 @@ msgstr "Standaard gebruiker"
 #: templates/reports/custom_fields.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Start"
 msgstr "Start"
 
@@ -6313,7 +6324,7 @@ msgstr "Suggesties:"
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/time_tracking.tpl.html
-#: templates/view_form.tpl.html
+#: templates/view_form.tpl.html templates/reports/custom_fields_weekly.tpl.html
 msgid "Summary"
 msgstr "Titel"
 
@@ -6325,7 +6336,7 @@ msgstr "Samenvatting"
 msgid "Summary:"
 msgstr "Titel:"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Sunday"
 msgstr ""
 
@@ -7418,6 +7429,7 @@ msgstr "Tijdvak"
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/send.tpl.html
 #: templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time Spent"
 msgstr "Duur"
 
@@ -7472,7 +7484,7 @@ msgstr "Tijdregistratie op afstand ingevoerd door %1$s"
 
 #: templates/customer/example/customer_info.tpl.html
 #: templates/customer/example/report_form_fields.tpl.html
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Timezone"
 msgstr "Tijdzone"
 
@@ -7811,6 +7823,7 @@ msgstr ""
 
 #: templates/checkins.tpl.html templates/notes.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "User"
 msgstr "Gebruiker"
 
@@ -8074,14 +8087,16 @@ msgstr ""
 
 #: templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Week"
 msgstr "Week"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Week starts on:"
 msgstr ""
 
 #: templates/reports/weekly.tpl.html templates/reports/weekly_data.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Weekly"
 msgstr "Wekelijkse"
 
@@ -8822,9 +8837,49 @@ msgid "year"
 msgstr "jaar"
 
 #: lib/eventum/class.template_helper.php:175
-#, fuzzy
 msgid "(archived)"
-msgstr "(gearchiveerd)"
+msgstr "(Gearchiveerd)"
+
+#: templates/setup.tpl.html
+msgid "Note:"
+msgstr "Notitie:"
+
+#: templates/list.tpl.html
+msgid ""
+"%1:\n"
+"%2 ago"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Custom Field"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#: templates/reports/tree.tpl.html
+msgid "Custom Fields Weekly Report"
+msgstr ""
+
+#: templates/setup.tpl.html
+msgid "Defaults"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Options:"
+msgstr ""
+
+#: templates/setup.tpl.html
+msgid ""
+"The SMTP (outgoing mail) configuration is needed to make sure emails are "
+"properly sent when creating new users/projects."
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent as minutes"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent per user"
+msgstr ""
 
 #~ msgid " with the message"
 #~ msgstr " met het bericht"
@@ -8887,9 +8942,6 @@ msgstr "(gearchiveerd)"
 
 #~ msgid "Auto-Creation of Issues:"
 #~ msgstr "Automatosch meldingen aanmaken:"
-
-#~ msgid "Note:"
-#~ msgstr "Notitie:"
 
 #~ msgid "CLOCKED"
 #~ msgstr "Prikklok"
