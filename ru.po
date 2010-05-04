@@ -3569,7 +3569,7 @@ msgstr "Мобильный"
 msgid "Module / Directory"
 msgstr "Модуль / Директория"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Monday"
 msgstr "Понедельник"
 
@@ -6371,7 +6371,7 @@ msgstr "Поле Сводка"
 msgid "Summary:"
 msgstr "Сводка:"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Sunday"
 msgstr "Воскресенье"
 
@@ -7529,7 +7529,7 @@ msgstr "Запись учета времени добавлена удаленн
 
 #: templates/customer/example/customer_info.tpl.html
 #: templates/customer/example/report_form_fields.tpl.html
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Timezone"
 msgstr "Часовой пояс"
 
@@ -7870,6 +7870,7 @@ msgstr ""
 
 #: templates/checkins.tpl.html templates/notes.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "User"
 msgstr "Пользователь"
 
@@ -8139,7 +8140,7 @@ msgstr ""
 msgid "Week"
 msgstr "Неделя"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Week starts on:"
 msgstr ""
 
@@ -8894,6 +8895,8 @@ msgid ""
 "%1:\n"
 "%2 ago"
 msgstr ""
+"%1:\n"
+"%2 назад"
 
 #: templates/reports/custom_fields_weekly.tpl.html
 msgid "Custom Field"
@@ -8910,6 +8913,24 @@ msgstr ""
 
 #: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time spent as minutes"
+msgstr ""
+
+#: templates/setup.tpl.html
+msgid "Note:"
+msgstr "Примечание:"
+
+#: templates/setup.tpl.html
+msgid "Defaults"
+msgstr ""
+
+#: templates/setup.tpl.html
+msgid ""
+"The SMTP (outgoing mail) configuration is needed to make sure emails are "
+"properly sent when creating new users/projects."
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent per user"
 msgstr ""
 
 #~ msgid "Port:"
@@ -9006,9 +9027,6 @@ msgstr ""
 
 #~ msgid "Auto-Creation of Issues:"
 #~ msgstr "Авто-создание запросов:"
-
-#~ msgid "Note:"
-#~ msgstr "Примечание:"
 
 #~ msgid "IN"
 #~ msgstr "ДА"
