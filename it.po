@@ -34,11 +34,14 @@ msgid ""
 "To view more details of this issue, or to update it, please visit the "
 "following URL"
 msgstr ""
+"\n"
+"Per avere maggiori dettagli sul problema, o aggiornarlo, per favore visita "
+"il seguente URL"
 
 #: htdocs/view.php:74
 #, php-format
 msgid "#%1$s - %2$s"
-msgstr ""
+msgstr "#%1$s - %2$s"
 
 #: lib/eventum/class.display_column.php:195
 msgid "% Complete"
@@ -46,22 +49,22 @@ msgstr "% completamento"
 
 #: templates/manage/field_display.tpl.html
 msgid "%1 Field"
-msgstr ""
+msgstr "%1 Campo"
 
 #: lib/eventum/class.filter.php:673
 #, php-format
 msgid "%1$s Group"
-msgstr ""
+msgstr "%1$s Gruppo"
 
 #: lib/eventum/class.filter.php:602
 #, php-format
 msgid "%1$s or greater"
-msgstr ""
+msgstr "%1$s o maggiore"
 
 #: lib/eventum/class.filter.php:605
 #, php-format
 msgid "%1$s or less"
-msgstr ""
+msgstr "%1$s o minore"
 
 #: templates/manage/time_tracking.tpl.html
 msgid ""
@@ -71,7 +74,7 @@ msgstr ""
 
 #: templates/main.tpl.html
 msgid "(All Issues)"
-msgstr ""
+msgstr "(Tutti i problemi)"
 
 #: templates/manage/general.tpl.html
 msgid "(Alternate domains that point to 'Address Hostname')"
@@ -83,7 +86,7 @@ msgstr "(GMT)"
 
 #: templates/main.tpl.html
 msgid "(Open Issues)"
-msgstr ""
+msgstr "(Problemi Aperti)"
 
 #: templates/manage/general.tpl.html
 msgid "(This MUST contain a real email address, e.g. \"%1\" or \"%2\")"
@@ -206,7 +209,7 @@ msgstr "Un nuovo utente è stato appena creato per te nel sistema."
 
 #: templates/checkins.tpl.html
 msgid "ADDED"
-msgstr ""
+msgstr "AGGIUNTO"
 
 #: lib/eventum/class.mail_helper.php:464 lib/eventum/class.mail_helper.php:467
 msgid "ADVISORY: Your reply will be sent to the notification list."
@@ -869,7 +872,7 @@ msgstr "Articoli"
 
 #: templates/help/scm_integration.tpl.html
 msgid "As an example, using the"
-msgstr ""
+msgstr "Per un esempio, utilizza"
 
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html
@@ -1238,7 +1241,7 @@ msgstr "Risposte precompilate"
 
 #: templates/reports/tree.tpl.html
 msgid "Categories and Statuses"
-msgstr ""
+msgstr "Categorie e Stati"
 
 #: lib/eventum/class.display_column.php:203 lib/eventum/class.filter.php:728
 #: lib/eventum/class.notification.php:618
@@ -1283,11 +1286,11 @@ msgstr "Campi modificati"
 
 #: templates/manage/custom_fields.tpl.html
 msgid "Changing field types can result in loss of data."
-msgstr ""
+msgstr "Cambiare la tipologia del campo puo far perdere informazioni"
 
 #: templates/setup.tpl.html
 msgid "Check Permissions"
-msgstr ""
+msgstr "Controllare Permessi"
 
 #: templates/send.tpl.html
 msgid "Check Spelling"
@@ -1315,7 +1318,7 @@ msgstr "Pulisci"
 
 #: templates/reports/customer_stats.tpl.html
 msgid "Clear Date"
-msgstr ""
+msgstr "Pulire Data"
 
 #: templates/view_form.tpl.html
 msgid "Clear Duplicate Status"
@@ -1378,11 +1381,11 @@ msgstr "Data chiusura"
 
 #: templates/bulk_update.tpl.html
 msgid "Closed Message"
-msgstr ""
+msgstr "Messaggio Chiuso"
 
 #: templates/expandable_cell/buttons.tpl.html
 msgid "Collapse all expanded cells"
-msgstr ""
+msgstr "Comprimi tutte le celle esplose"
 
 #: templates/expandable_cell/buttons.tpl.html
 msgid "Collapse expanded cell"
@@ -1939,7 +1942,7 @@ msgstr "Duplicati"
 
 #: templates/close.tpl.html templates/update_form.tpl.html
 msgid "E-mail about issue update was sent to"
-msgstr ""
+msgstr "Un E-mail relativa agli aggiornamenti sul problema è stata spedita a"
 
 #: lib/eventum/class.monitor.php:86
 msgid "ERROR: Almost no free disk space left (percentage left"
@@ -2191,7 +2194,7 @@ msgstr "Carico di lavoro email per ora del giorno"
 
 #: htdocs/reports/workload_time_period_graph.php:52
 msgid "Email by Time Period"
-msgstr ""
+msgstr "Email per Periodo di Temp"
 
 #: templates/reports/tree.tpl.html
 msgid "Email by time period"
@@ -2228,6 +2231,8 @@ msgid ""
 "Email will be re-sent from your name, NOT original sender's, and without any "
 "attachments."
 msgstr ""
+"Un Email sara re-inviata dal tuo nome, NON il mittente originale, a senza "
+"allegati."
 
 #: templates/main.tpl.html templates/reports/workload_time_period.tpl.html
 msgid "Emails"
@@ -2276,7 +2281,7 @@ msgstr "Data di fine"
 
 #: templates/add_time_tracking.tpl.html
 msgid "End time in the future."
-msgstr ""
+msgstr "Tempo finale nel futuro"
 
 #: templates/reports/weekly.tpl.html
 #: templates/reports/custom_fields_weekly.tpl.html
@@ -2693,7 +2698,7 @@ msgstr "Correggi errori di ortografia"
 
 #: templates/help/link_filters.tpl.html
 msgid "For example"
-msgstr ""
+msgstr "Per Esempio"
 
 #: templates/help/field_display.tpl.html
 msgid ""
@@ -2777,7 +2782,7 @@ msgstr ""
 #: lib/eventum/class.filter.php:608
 #, php-format
 msgid "Greater than %1$s"
-msgstr ""
+msgstr "Maggiore di %1$s"
 
 #: htdocs/list.php:90 lib/eventum/class.display_column.php:186
 #: lib/eventum/class.project.php:1105 templates/manage/users.tpl.html
@@ -7850,6 +7855,7 @@ msgstr ""
 
 #: templates/checkins.tpl.html templates/notes.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "User"
 msgstr "Utente"
 
@@ -8901,6 +8907,10 @@ msgstr ""
 
 #: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time spent as minutes"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+msgid "Time spent per user"
 msgstr ""
 
 #~ msgid " with the message"

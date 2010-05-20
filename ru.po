@@ -948,7 +948,7 @@ msgstr "Связать"
 
 #: templates/associate.tpl.html
 msgid "Associate Email Message to Issue #%1"
-msgstr ""
+msgstr "Связать сообщение электронной почты с запросом #%1"
 
 #: lib/eventum/class.help.php:109 templates/emails.tpl.html
 #: templates/help/main.tpl.html templates/help/support_emails.tpl.html
@@ -1225,7 +1225,7 @@ msgstr "Подготовленные ответы"
 
 #: templates/reports/tree.tpl.html
 msgid "Categories and Statuses"
-msgstr ""
+msgstr "Категории и статусы"
 
 #: lib/eventum/class.display_column.php:203 lib/eventum/class.filter.php:728
 #: lib/eventum/class.notification.php:618
@@ -1274,7 +1274,7 @@ msgstr ""
 
 #: templates/setup.tpl.html
 msgid "Check Permissions"
-msgstr ""
+msgstr "Проверка разрешений"
 
 #: templates/send.tpl.html
 msgid "Check Spelling"
@@ -1804,7 +1804,7 @@ msgstr "Удалить"
 
 #: templates/manage/email_alias.tpl.html
 msgid "Delete Alias"
-msgstr ""
+msgstr "Удалить псевдоним"
 
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html
@@ -8900,7 +8900,7 @@ msgstr ""
 
 #: templates/reports/custom_fields_weekly.tpl.html
 msgid "Custom Field"
-msgstr ""
+msgstr "Пользовательское поле"
 
 #: templates/reports/custom_fields_weekly.tpl.html
 #: templates/reports/tree.tpl.html
@@ -8921,7 +8921,7 @@ msgstr "Примечание:"
 
 #: templates/setup.tpl.html
 msgid "Defaults"
-msgstr ""
+msgstr "По умолчанию"
 
 #: templates/setup.tpl.html
 msgid ""
