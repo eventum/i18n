@@ -9446,7 +9446,7 @@ msgstr "Tiempo invertido por usuario"
 #: htdocs/view_email.php:50
 #, php-format
 msgid "Email #%1$s: %2$s"
-msgstr ""
+msgstr "Email #%1$s: %2$s"
 
 #. TRANSLATORS: filename for inline image attachments, where %s is file extension
 #: lib/eventum/class.mime_helper.php:586
