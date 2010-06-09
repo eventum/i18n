@@ -1704,6 +1704,7 @@ msgstr "Datumfält:"
 
 #: templates/reports/customer_stats.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Date Range"
 msgstr "Datumintervall"
 
@@ -2229,6 +2230,7 @@ msgid "End time in the future."
 msgstr ""
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "End:"
 msgstr "Slut:"
 
@@ -2682,6 +2684,7 @@ msgstr ""
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Generate"
 msgstr ""
 
@@ -3075,6 +3078,7 @@ msgstr ""
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issue ID"
 msgstr "Ärende ID"
 
@@ -3151,6 +3155,7 @@ msgid "Issues with only status changed"
 msgstr ""
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Issues/Customers matching criteria"
 msgstr ""
 
@@ -3490,7 +3495,7 @@ msgstr "Mobil"
 msgid "Module / Directory"
 msgstr "Modul / Katalog"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Monday"
 msgstr "Måndag"
 
@@ -3721,6 +3726,7 @@ msgid "No custom fields could be found."
 msgstr "Inga anpassade fält hittades."
 
 #: htdocs/reports/custom_fields.php:55
+#: htdocs/reports/custom_fields_weekly.php:54
 msgid "No custom fields for this project"
 msgstr ""
 
@@ -3733,6 +3739,7 @@ msgid "No customizations could be found."
 msgstr ""
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "No data found"
 msgstr ""
 
@@ -3872,6 +3879,7 @@ msgstr "Inga"
 #: templates/manage/customer_notes.tpl.html
 #: templates/manage/time_tracking.tpl.html templates/setup.tpl.html
 #: templates/update_form.tpl.html templates/view_form.tpl.html
+#: templates/manage/email_accounts.tpl.html
 msgid "Note"
 msgstr ""
 
@@ -4031,6 +4039,7 @@ msgstr ""
 
 #: templates/manage/custom_fields.tpl.html
 #: templates/reports/customer_stats.tpl.html templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Options"
 msgstr ""
 
@@ -5133,6 +5142,7 @@ msgid ""
 msgstr ""
 
 #: templates/reports/custom_fields.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid ""
 "Please select the custom field that you would like to generate a report "
 "against."
@@ -5587,6 +5597,7 @@ msgid "Report Type"
 msgstr ""
 
 #: templates/reports/weekly.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Report Type:"
 msgstr ""
 
@@ -6098,6 +6109,7 @@ msgstr ""
 #: templates/reports/custom_fields.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Start"
 msgstr ""
 
@@ -6202,7 +6214,7 @@ msgstr "Förslag:"
 #: templates/reports/issue_user.tpl.html templates/reports/open_issues.tpl.html
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/time_tracking.tpl.html
-#: templates/view_form.tpl.html
+#: templates/view_form.tpl.html templates/reports/custom_fields_weekly.tpl.html
 msgid "Summary"
 msgstr "Sammanfattning"
 
@@ -6214,7 +6226,7 @@ msgstr ""
 msgid "Summary:"
 msgstr "Rubrik:"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Sunday"
 msgstr "Söndag"
 
@@ -7292,6 +7304,7 @@ msgstr ""
 #: templates/reports/recent_activity.tpl.html
 #: templates/reports/stalled_issues.tpl.html templates/send.tpl.html
 #: templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time Spent"
 msgstr "Nedlagd tid"
 
@@ -7346,7 +7359,7 @@ msgstr ""
 
 #: templates/customer/example/customer_info.tpl.html
 #: templates/customer/example/report_form_fields.tpl.html
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Timezone"
 msgstr "Tidszon"
 
@@ -7683,6 +7696,7 @@ msgstr ""
 
 #: templates/checkins.tpl.html templates/notes.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "User"
 msgstr "Användare"
 
@@ -7933,14 +7947,16 @@ msgstr ""
 
 #: templates/reports/weekly.tpl.html
 #: templates/reports/workload_date_range.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Week"
 msgstr ""
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Week starts on:"
 msgstr ""
 
 #: templates/reports/weekly.tpl.html templates/reports/weekly_data.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "Weekly"
 msgstr ""
 
@@ -8674,6 +8690,77 @@ msgstr ""
 #: lib/eventum/class.template_helper.php:175
 msgid "(archived)"
 msgstr "(Arkiverad)"
+
+#: templates/list.tpl.html
+msgid ""
+"%1:\n"
+"%2 ago"
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#, fuzzy
+msgid "Custom Field"
+msgstr "Anpassade fält"
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#: templates/reports/tree.tpl.html
+#, fuzzy
+msgid "Custom Fields Weekly Report"
+msgstr "Anpassade fält"
+
+#: templates/setup.tpl.html
+#, fuzzy
+msgid "Defaults"
+msgstr "Detaljer:"
+
+#: htdocs/view_email.php:50
+#, php-format
+msgid "Email #%1$s: %2$s"
+msgstr ""
+
+#: templates/manage/email_accounts.tpl.html
+#, fuzzy
+msgid "If you check this, you cannot leave a copy of messages on the server."
+msgstr ""
+"<b>Notering:</b> Om du markerar denna kan du inte lämna en kopia av "
+"meddelandet på servern."
+
+#: templates/setup.tpl.html
+#, fuzzy
+msgid "Note:"
+msgstr "Notering: "
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#, fuzzy
+msgid "Options:"
+msgstr "Åtgärder"
+
+#: templates/setup.tpl.html
+#, fuzzy
+msgid ""
+"The SMTP (outgoing mail) configuration is needed to make sure emails are "
+"properly sent when creating new users/projects."
+msgstr ""
+"<b>Notering:</b> Konfigurationen för SMTP (utgående e-post) behövs för att "
+"försäkra sig om att e-post sänds på korrekt sätt när nya användare/projekt "
+"skapas."
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#, fuzzy
+msgid "Time spent as minutes"
+msgstr "i minuter"
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#, fuzzy
+msgid "Time spent per user"
+msgstr "Nedlagd tid"
+
+#. TRANSLATORS: filename for inline image attachments, where %s is file extension
+#: lib/eventum/class.mime_helper.php:587
+#: upgrade/patches/06_iaf_attachment_filename.php:31
+#, php-format
+msgid "Untitled.%s"
+msgstr ""
 
 #~ msgid "Port:"
 #~ msgstr "Port:"

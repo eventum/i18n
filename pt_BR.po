@@ -4028,6 +4028,7 @@ msgstr "Nenhum"
 #: templates/manage/customer_notes.tpl.html
 #: templates/manage/time_tracking.tpl.html templates/setup.tpl.html
 #: templates/update_form.tpl.html templates/view_form.tpl.html
+#: templates/manage/email_accounts.tpl.html
 msgid "Note"
 msgstr "Nota"
 
@@ -9250,10 +9251,18 @@ msgid "Email #%1$s: %2$s"
 msgstr "Email #%1$s: %2$s"
 
 #. TRANSLATORS: filename for inline image attachments, where %s is file extension
-#: lib/eventum/class.mime_helper.php:586
+#: lib/eventum/class.mime_helper.php:586 lib/eventum/class.mime_helper.php:587
+#: upgrade/patches/06_iaf_attachment_filename.php:31
 #, php-format
 msgid "Untitled.%s"
 msgstr "SemTitulo.%s"
+
+#: templates/manage/email_accounts.tpl.html
+#, fuzzy
+msgid "If you check this, you cannot leave a copy of messages on the server."
+msgstr ""
+"<b>Nota:</b> Se você marcar esta opção, não poderá deixar uma cópia das "
+"mensagens no servidor."
 
 #~ msgid " with the message"
 #~ msgstr " com a mensagem"

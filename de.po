@@ -4034,6 +4034,7 @@ msgstr "Keine"
 #: templates/manage/customer_notes.tpl.html
 #: templates/manage/time_tracking.tpl.html templates/setup.tpl.html
 #: templates/update_form.tpl.html templates/view_form.tpl.html
+#: templates/manage/email_accounts.tpl.html
 msgid "Note"
 msgstr "Notiz"
 
@@ -9027,6 +9028,25 @@ msgstr ""
 
 #: templates/reports/custom_fields_weekly.tpl.html
 msgid "Time spent per user"
+msgstr ""
+
+#: htdocs/view_email.php:50
+#, fuzzy, php-format
+msgid "Email #%1$s: %2$s"
+msgstr "#%1$s - %2$s"
+
+#: templates/manage/email_accounts.tpl.html
+#, fuzzy
+msgid "If you check this, you cannot leave a copy of messages on the server."
+msgstr ""
+"<b>Hinweis:</b> Wenn Sie dies ankreuzen, können Sie keine Kopie der "
+"Nachrichten auf dem Server belaßen."
+
+#. TRANSLATORS: filename for inline image attachments, where %s is file extension
+#: lib/eventum/class.mime_helper.php:587
+#: upgrade/patches/06_iaf_attachment_filename.php:31
+#, php-format
+msgid "Untitled.%s"
 msgstr ""
 
 #~ msgid " with the message"

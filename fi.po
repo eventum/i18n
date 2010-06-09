@@ -3543,7 +3543,7 @@ msgstr "Matkapuhelin"
 msgid "Module / Directory"
 msgstr "Moduuli / Kansio"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Monday"
 msgstr ""
 
@@ -3929,6 +3929,7 @@ msgstr "Ei mitään"
 #: templates/manage/customer_notes.tpl.html
 #: templates/manage/time_tracking.tpl.html templates/setup.tpl.html
 #: templates/update_form.tpl.html templates/view_form.tpl.html
+#: templates/manage/email_accounts.tpl.html
 msgid "Note"
 msgstr "Viesti"
 
@@ -6298,7 +6299,7 @@ msgstr "Yhteenvetokenttä"
 msgid "Summary:"
 msgstr "Yhteenveto:"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Sunday"
 msgstr ""
 
@@ -7442,7 +7443,7 @@ msgstr "Etänä lisätty ajanseurantamerkintä lisääjänä %1$s"
 
 #: templates/customer/example/customer_info.tpl.html
 #: templates/customer/example/report_form_fields.tpl.html
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Timezone"
 msgstr "Aikavyöhyke"
 
@@ -7780,6 +7781,7 @@ msgstr ""
 
 #: templates/checkins.tpl.html templates/notes.tpl.html
 #: templates/reports/recent_activity.tpl.html templates/time_tracking.tpl.html
+#: templates/reports/custom_fields_weekly.tpl.html
 msgid "User"
 msgstr "Käyttäjä"
 
@@ -8042,7 +8044,7 @@ msgstr ""
 msgid "Week"
 msgstr "Viikko"
 
-#: templates/preferences.tpl.html
+#: templates/preferences.tpl.html templates/setup.tpl.html
 msgid "Week starts on:"
 msgstr ""
 
@@ -8810,6 +8812,42 @@ msgstr ""
 msgid "Time spent as minutes"
 msgstr ""
 
+#: templates/setup.tpl.html
+msgid "Note:"
+msgstr "Viesti:"
+
+#: templates/setup.tpl.html
+#, fuzzy
+msgid "Defaults"
+msgstr "Yksityiskohdat"
+
+#: htdocs/view_email.php:50
+#, php-format
+msgid "Email #%1$s: %2$s"
+msgstr ""
+
+#: templates/manage/email_accounts.tpl.html
+msgid "If you check this, you cannot leave a copy of messages on the server."
+msgstr ""
+
+#: templates/setup.tpl.html
+msgid ""
+"The SMTP (outgoing mail) configuration is needed to make sure emails are "
+"properly sent when creating new users/projects."
+msgstr ""
+
+#: templates/reports/custom_fields_weekly.tpl.html
+#, fuzzy
+msgid "Time spent per user"
+msgstr "Näytä vikailmoitukseen käytetyt ajat"
+
+#. TRANSLATORS: filename for inline image attachments, where %s is file extension
+#: lib/eventum/class.mime_helper.php:587
+#: upgrade/patches/06_iaf_attachment_filename.php:31
+#, php-format
+msgid "Untitled.%s"
+msgstr ""
+
 #~ msgid " with the message"
 #~ msgstr " viestillä"
 
@@ -8903,9 +8941,6 @@ msgstr ""
 
 #~ msgid "Auto-Creation of Issues:"
 #~ msgstr "Vikailmoitusten automaattinen luominen:"
-
-#~ msgid "Note:"
-#~ msgstr "Viesti:"
 
 #~ msgid "IN"
 #~ msgstr "PÄÄLLÄ"
