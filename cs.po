@@ -5896,50 +5896,52 @@ msgstr "Zapamatovat si výběr"
 
 #: templates/login_form.tpl.html
 msgid "Remember me"
-msgstr ""
+msgstr "Zapamatovat si mě"
 
 #: templates/setup.tpl.html
 msgid ""
 "Remember to protect your '%1' directory (like changing its permissions) to "
 "prevent anyone else from changing your existing Eventum configuration."
 msgstr ""
+"Nezapomeňte ochránit svůj adresář '%1' (například změnou oprávnění "
+"adresáře), abyste všem zabránili změnit vaše existující nastavení Eventum."
 
 #: lib/eventum/class.reminder_action.php:752
 #: templates/manage/reminder_actions.tpl.html
 #: templates/manage/reminder_conditions.tpl.html
 msgid "Reminder"
-msgstr ""
+msgstr "Upomínka"
 
 #: templates/reminders/alert_no_recipients.tpl.text
 msgid "Reminder Alert"
-msgstr ""
+msgstr "Upozornění upomínky"
 
 #: lib/eventum/class.reminder_action.php:792
 msgid "Reminder Not Triggered"
-msgstr ""
+msgstr "Upomínka nebyla spuštěna"
 
 #: templates/manage/reminders.tpl.html
 msgid "Reminder Type"
-msgstr ""
+msgstr "Typ upomínky"
 
 #: templates/manage/projects.tpl.html
 msgid "Remote Invocation"
-msgstr ""
+msgstr "Vyvolání upomínky"
 
 #: templates/manage/custom_fields.tpl.html
 #: templates/manage/reminder_actions.tpl.html
 msgid "Remove"
-msgstr ""
+msgstr "Odstranit"
 
 #: templates/view_form.tpl.html
 msgid "Remove Quarantine"
-msgstr ""
+msgstr "Odstranit karanténu"
 
 #: templates/adv_search.tpl.html templates/attached_emails.tpl.html
 #: templates/authorized_replier.tpl.html templates/checkins.tpl.html
 #: templates/impact_analysis.tpl.html templates/notification.tpl.html
 msgid "Remove Selected"
-msgstr ""
+msgstr "Smazat vybrané"
 
 #: templates/emails.tpl.html
 msgid "Remove Selected Emails"
