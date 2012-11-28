@@ -3082,7 +3082,7 @@ msgstr "Nom de l'hôte"
 
 #: templates/manage/general.tpl.html
 msgid "Hostname:"
-msgstr "Nom de l'hôte :"
+msgstr "Nom d'hôte :"
 
 #: lib/eventum/class.customer_stats_report.php:714
 msgid "Hours"
