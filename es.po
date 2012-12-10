@@ -147,7 +147,7 @@ msgstr "(en horas por favor)"
 
 #: templates/close.tpl.html templates/post_note.tpl.html
 msgid "(in minutes)"
-msgstr ""
+msgstr "(en minutos)"
 
 #: templates/setup.tpl.html
 msgid "(literally)"
