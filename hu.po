@@ -1556,7 +1556,7 @@ msgstr "Státusz létrehozása"
 
 #: templates/manage/users.tpl.html
 msgid "Create User"
-msgstr "Felhasználó létrehozás"
+msgstr "Felhasználó létrehozása"
 
 #: templates/setup.tpl.html
 msgid "Create User and Permissions"
