@@ -708,7 +708,7 @@ msgstr ""
 
 #: templates/edit_reporter.tpl.html
 msgid "An error occurred while trying to update the Reporter."
-msgstr ""
+msgstr "Ha ocurrido un error mientras se intentaba actualizar el Reportador"
 
 #: templates/manage/email_accounts.tpl.html
 msgid "An error occurred while trying to update the account information."
@@ -1206,7 +1206,7 @@ msgstr "Responsable de Cuenta Técnico de Respaldo"
 
 #: templates/manage/ldap.tpl.html
 msgid "Base DN:"
-msgstr ""
+msgstr "DN base:"
 
 #: templates/reports/workload_time_period.tpl.html
 msgid "Based on all issues recorded in Eventum since start to present."
@@ -1228,11 +1228,11 @@ msgstr "Entre"
 
 #: templates/manage/ldap.tpl.html
 msgid "Bind DN:"
-msgstr ""
+msgstr "DN de enlace:"
 
 #: templates/manage/ldap.tpl.html
 msgid "Bind PW:"
-msgstr ""
+msgstr "Contraseña de enlace"
 
 # Por verificar el contexto
 #: templates/manage/round_robin.tpl.html
@@ -1257,12 +1257,12 @@ msgstr "Modelo:"
 #. TRANSLATORS: Translation of Brasiliant Portugese language in preferences dropdown
 #: localization/LINGUAS.php:58
 msgid "Brasiliant Portugese"
-msgstr ""
+msgstr "Portugués Brasileño"
 
 #. TRANSLATORS: Translation of Breton language in preferences dropdown
 #: localization/LINGUAS.php:4
 msgid "Breton"
-msgstr ""
+msgstr "Bretón"
 
 #: templates/bulk_update.tpl.html
 msgid "Bulk Update"
@@ -1320,7 +1320,7 @@ msgstr "Respuestas Envasadas"
 #. TRANSLATORS: Translation of Catalan language in preferences dropdown
 #: localization/LINGUAS.php:6
 msgid "Catalan"
-msgstr ""
+msgstr "Catalán"
 
 #: templates/reports/tree.tpl.html
 msgid "Categories and Statuses"
@@ -1399,7 +1399,7 @@ msgstr "Página de Salida:"
 #. TRANSLATORS: Translation of Chinese (Simplified) language in preferences dropdown
 #: localization/LINGUAS.php:78
 msgid "Chinese (Simplified)"
-msgstr ""
+msgstr "Chino (simplificado)"
 
 # ¿Escoja Backend de Campo Personalizado?
 # ¿Backend?
@@ -1665,7 +1665,7 @@ msgstr "Crear Usuario y Permisos"
 
 #: templates/manage/ldap.tpl.html
 msgid "Create Users:"
-msgstr ""
+msgstr "Crear usuarios:"
 
 # Se usa <a href="http://incidencias.printingroup.com.ar/reports/issue.php?cat=user>aquí</a>
 # "Creados" no aplica
@@ -1789,7 +1789,7 @@ msgstr "Personalizar Pantalla de Listado de Casos"
 
 #: templates/manage/manage.tpl.html
 msgid "Customize LDAP Config"
-msgstr ""
+msgstr "Personalizar configuración LDAP"
 
 #: templates/manage/manage.tpl.html
 msgid "Customize Monitoring Parameters"
@@ -1798,7 +1798,7 @@ msgstr "Personalizar parámetros de monitoreo"
 #. TRANSLATORS: Translation of Czech language in preferences dropdown
 #: localization/LINGUAS.php:8
 msgid "Czech"
-msgstr ""
+msgstr "Checo"
 
 #: templates/manage/general.tpl.html
 msgid "Daily Tips:"
@@ -1807,7 +1807,7 @@ msgstr "Consejos Diarios:"
 #. TRANSLATORS: Translation of Danish language in preferences dropdown
 #: localization/LINGUAS.php:10
 msgid "Danish"
-msgstr ""
+msgstr "Danés"
 
 #: templates/offline.tpl.html templates/offline.tpl.text
 msgid "Database Error"
@@ -1895,7 +1895,7 @@ msgstr "Prioridad Predeterminada:"
 
 #: templates/manage/ldap.tpl.html
 msgid "Default Roles:"
-msgstr ""
+msgstr "Roles por defecto:"
 
 #: templates/setup.tpl.html
 msgid "Defaults"
@@ -1954,7 +1954,7 @@ msgstr "Descripción:"
 
 #: templates/list_excerpts.tpl.html
 msgid "Description: %1"
-msgstr ""
+msgstr "Descripción: %1"
 
 #: templates/manage/reminder_actions.tpl.html
 #: templates/manage/reminders.tpl.html templates/setup.tpl.html
@@ -2051,7 +2051,7 @@ msgstr "Duplicados"
 #. TRANSLATORS: Translation of Dutch language in preferences dropdown
 #: localization/LINGUAS.php:50
 msgid "Dutch"
-msgstr ""
+msgstr "Danes"
 
 #: templates/close.tpl.html templates/update_form.tpl.html
 msgid "E-mail about issue update was sent to"
@@ -2155,7 +2155,7 @@ msgstr ""
 #: lib/eventum/class.monitor.php:90
 #, php-format
 msgid "ERROR: There is a total of %d emails not associated."
-msgstr ""
+msgstr "ERROR: Hay un total de %d emails no asociados"
 
 #: lib/eventum/class.monitor.php:55
 #, php-format
@@ -9730,15 +9730,17 @@ msgstr "año"
 #: templates/manage/general.tpl.html
 msgid "(Alternate domains separated by space that point to 'Address Hostname')"
 msgstr ""
+"(Separa con espacios los diferentes dominios que redirijan a la 'Dirección "
+"del host')"
 
 #: templates/manage/ldap.tpl.html
 msgid "Contact ID attribute:"
-msgstr ""
+msgstr "Atributo ID de contacto:"
 
 #: templates/manage/ldap.tpl.html
 msgid "Customer ID attribute:"
-msgstr ""
+msgstr "ID del cliente:"
 
 #: templates/manage/manage.tpl.html
 msgid "Customize SCM Integration"
-msgstr ""
+msgstr "Personalizar integración con control de versiones"
