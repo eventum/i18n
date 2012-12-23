@@ -2210,7 +2210,7 @@ msgstr "Editar Releases"
 
 #: templates/view_form.tpl.html
 msgid "Edit Reporter"
-msgstr ""
+msgstr "Editar Reportero"
 
 #: templates/preferences.tpl.html
 msgid "Edit Signature"
