@@ -376,7 +376,7 @@ msgstr "Telefoneintrag hinzufügen"
 
 #: templates/notification.tpl.html
 msgid "Add Subscription"
-msgstr "Abonement hinzufügen"
+msgstr "Abonnement hinzufügen"
 
 #: templates/add_time_tracking.tpl.html templates/time_tracking.tpl.html
 msgid "Add Time Entry"
@@ -8239,7 +8239,7 @@ msgstr "Status aktualisieren"
 
 #: templates/notification.tpl.html
 msgid "Update Subscription"
-msgstr "Abonement aktualisieren"
+msgstr "Abonnement aktualisieren"
 
 #: templates/manage/users.tpl.html
 msgid "Update User"
