@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-10 19:17+0300\n"
-"PO-Revision-Date: 2017-10-17 18:46+0000\n"
+"PO-Revision-Date: 2017-10-31 15:46+0000\n"
 "Last-Translator: Andreas Kleinert <Andy.Kleinert@gmail.com>\n"
 "Language-Team: German "
 "<https://hosted.weblate.org/projects/eventum/translations/de/>\n"
@@ -36,25 +36,25 @@ msgstr "„%s” ist keine gültig Problem-ID und wurde entfernt."
 
 #: templates/time_tracking_entry.tpl.html:4
 msgid "#%1 - Add Time Tracking"
-msgstr ""
+msgstr "#%1 - Zeiterfassung hinzufügen"
 
 #: templates/time_tracking_entry.tpl.html:6
 msgid "#%1 - Edit Time Tracking"
-msgstr ""
+msgstr "#%1 - Zeiterfassung bearbeiten"
 
 #. TRANSLATORS: Page HTML title: %1 = issue id, %2 = issue summary
 #: src/Controller/ViewController.php:164
 #, php-format
 msgid "#%1$s - %2$s"
-msgstr ""
+msgstr "#%1$s - %2$s"
 
 #: lib/eventum/class.display_column.php:182
 msgid "% Complete"
-msgstr ""
+msgstr "% abgeschlossen"
 
 #: templates/manage/field_display.tpl.html:20
 msgid "%1 Field"
-msgstr ""
+msgstr "%1 Feld"
 
 #: templates/maintenance.tpl.html:6
 msgid ""
@@ -64,47 +64,49 @@ msgstr ""
 #: lib/eventum/class.filter.php:702
 #, php-format
 msgid "%1$s Group"
-msgstr ""
+msgstr "%1$s Gruppe"
 
 #: lib/eventum/class.filter.php:629
 #, php-format
 msgid "%1$s or greater"
-msgstr ""
+msgstr "%1$s oder größer"
 
 #: lib/eventum/class.filter.php:632
 #, php-format
 msgid "%1$s or less"
-msgstr ""
+msgstr "%1$s oder kleiner"
 
 #. TRANSLATORS: %1 = label, %2 = date diff
 #: lib/eventum/class.issue.php:2248
 #, php-format
 msgid "%1$s: %2$s ago"
-msgstr ""
+msgstr "%1$s: %2$s her"
 
 #: templates/list.tpl.html:135
 msgid ""
 "%1:\n"
 "%2 ago"
 msgstr ""
+"%1:\n"
+"%2 her"
 
 #. TRANSLATORS: %1 - APP_SHORT_NAME
 #: lib/eventum/class.user.php:344
 #, php-format
 msgid "%s: New Account - Confirmation Required"
-msgstr ""
+msgstr "%s: Neues Konto - Bestätigung erforderlich"
 
 #. TRANSLATORS: %s - APP_SHORT_NAME
 #: lib/eventum/class.user.php:376
 #, php-format
 msgid "%s: New Password - Confirmation Required"
-msgstr ""
+msgstr "%s: Neues Passwort - Bestätigung erforderlich"
 
 #. TRANSLATORS: %s - APP_SHORT_NAME
 #: lib/eventum/class.notification.php:1504
 #, php-format
 msgid "%s: New User information"
-msgstr ""
+msgstr "%s: Neue Benutzerinformationen"
 
 #. TRANSLATORS: %s: APP_SHORT_NAME
 #: lib/eventum/class.support.php:447
@@ -116,13 +118,13 @@ msgstr ""
 #: lib/eventum/class.notification.php:1452
 #, php-format
 msgid "%s: User account information updated"
-msgstr ""
+msgstr "%s: Benutzerkontoinformationen aktualisiert"
 
 #. TRANSLATORS: %s - APP_SHORT_NAME
 #: lib/eventum/class.notification.php:1478
 #, php-format
 msgid "%s: User account password changed"
-msgstr ""
+msgstr "%s: Passwort des Benutzers geändert"
 
 #: templates/manage/time_tracking.tpl.html:114
 msgid ""
